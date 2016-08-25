@@ -120,60 +120,70 @@ a {
     width: 85%;
     margin-left: 1em;
     margin-right: 1em; }
-    #projects ul li {
-      font-size: 30px;
-      font-family: "Open Sans Condensed", Verdana, sans-serif;
-      font-weight: bolder;
-      border-bottom: 3px solid black;
-      margin-bottom: 0.5em;
-      margin-top: 16%;
-      display: block;
-      color: black; }
-    #projects ul .ready {
-      margin-left: 10px;
-      width: 85%;
-      border-radius: 6px;
-      border-left: 2px solid #FAFCFC; }
-    #projects ul .respon {
-      margin-left: 10px;
-      width: 85%;
-      border-radius: 6px;
-      border-left: 2px solid #FAFCFC; }
-    #projects ul .accord {
-      margin-left: 10px;
-      width: 85%;
-      border-radius: 6px;
-      border-left: 2px solid #FAFCFC; }
-    #projects ul .mem-game {
-      margin-left: 10px;
-      width: 85%;
-      border-radius: 6px;
-      border-left: 2px solid #FAFCFC; }
-    #projects ul .chatti {
-      margin-left: 10px;
-      width: 85%;
-      border-radius: 6px;
-      border-left: 2px solid  #FAFCFC; }
-    #projects ul h2 {
-      font-family: "Lato", Verdana, sans-serif;
-      font-weight: bold;
-      line-height: 2;
-      letter-spacing: 2px;
-      color: black;
-      font-size: 15px;
-      padding-bottom: 0.5em;
-      padding-left: 2em; }
-    #projects ul p {
-      font-family: "Lato", Verdana, sans-serif;
-      margin-left: 1em;
-      line-height: 2;
-      font-weight: bold;
-      padding-bottom: 0.7em;
-      font-size: 17px; }
-    #projects ul .ghsite {
-      cursor: pointer; }
-      #projects ul .ghsite:hover {
-        background-color: orange; }
+  #projects li {
+    font-size: 40px;
+    font-family: "Open Sans Condensed", Verdana, sans-serif;
+    font-weight: bolder;
+    border-bottom: 3px solid black;
+    margin-bottom: 0.5em;
+    margin-top: 16%;
+    display: block;
+    color: black;
+    padding-bottom: 0.4em; }
+  #projects .ready {
+    margin-top: 13px;
+    margin-left: 10px;
+    width: 85%;
+    border-radius: 6px;
+    border-left: 2px solid #FAFCFC;
+    background-color: none; }
+    #projects .ready:hover {
+      background-color: red; }
+  #projects .respon {
+    margin-left: 10px;
+    width: 85%;
+    border-radius: 6px;
+    border-left: 2px solid #FAFCFC; }
+  #projects .accord {
+    margin-left: 10px;
+    width: 85%;
+    border-radius: 6px;
+    border-left: 2px solid #FAFCFC; }
+  #projects .mem-game {
+    margin-left: 10px;
+    width: 85%;
+    border-radius: 6px;
+    border-left: 2px solid #FAFCFC; }
+  #projects .chatti {
+    margin-left: 10px;
+    width: 85%;
+    border-radius: 6px;
+    border-left: 2px solid  #FAFCFC; }
+  #projects h2 {
+    font-family: "Lato", Verdana, sans-serif;
+    font-weight: bold;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: black;
+    font-size: 13px;
+    padding-top: 2px;
+    padding-bottom: 0.5em;
+    padding-left: 2em; }
+  #projects p {
+    font-family: "Lato", Verdana, sans-serif;
+    text-align: right;
+    background-color: lightcyan;
+    font-weight: bold;
+    font-size: 17px; }
+  #projects .ghsite {
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    color: black;
+    background-color: lightcyan;
+    margin-left: 1em; }
+    #projects .ghsite:hover {
+      color: #ffb117; }
 
 /***************** end of projects.html **************/
 /*

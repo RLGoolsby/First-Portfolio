@@ -186,9 +186,9 @@ h1{
       width: 85%;
       margin-left: 1em;
       margin-right: 1em;
-
+    }
        li{
-        font-size: 30px;
+        font-size: 40px;
         font-family: $ffamily;
         font-weight: bolder;
         border-bottom: 3px solid black;
@@ -196,13 +196,19 @@ h1{
         margin-top: 16%;
         display: block;
         color: black;
+        padding-bottom: 0.4em;
         }
 
       .ready{
+        margin-top: 13px;
         margin-left: 10px;
         width: 85%;
         border-radius: 6px;
         border-left: 2px solid #FAFCFC;
+        background-color: none;
+        &:hover{
+          background-color: red;
+        }
       }
 
 
@@ -237,31 +243,40 @@ h1{
         font-family: "Lato", Verdana, sans-serif;
         font-weight: bold;
         line-height: 2;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         color: black;
-        font-size: 15px;
+        font-size: 13px;
+        padding-top: 2px;
         padding-bottom: 0.5em;
         padding-left: 2em;
 
       }
       p{
         font-family: "Lato", Verdana, sans-serif;
-        margin-left: 1em;
-        line-height: 2;
+        // margin-left: 1em;
+        text-align: right;
+        background-color: lightcyan;
+        //  line-height: 2;
         font-weight: bold;
-        padding-bottom: 0.7em;
+        // padding-bottom: 0.7em;
         font-size: 17px;
+
         }
         .ghsite{
+          border-radius: 5px;
           cursor:pointer;
+          font-size: 14px;
+          color: black;
+          background-color: lightcyan;
+          margin-left: 1em;
           &:hover{
-            background-color: orange;
-
+            color: #ffb117;
           }
         }
-    }
+
 
 }
+
 
 /***************** end of projects.html **************/
 
