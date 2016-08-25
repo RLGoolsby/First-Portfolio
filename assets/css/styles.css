@@ -1,6 +1,6 @@
 body {
   width: 100%;
-  background-color: darkkhaki; }
+  background-color: lightgrey; }
 
 /*******    HOME PAGE  *********/
 nav {
@@ -43,7 +43,7 @@ a {
   font-size: 1.2em;
   margin-left: 0.2em; }
   a:hover {
-    color: #07A39B;
+    color: #fff;
     cursor: pointer; }
 
 /******* CONTENT RIGHT *********/
@@ -131,9 +131,9 @@ a {
     color: black;
     padding-bottom: 0.4em; }
   #projects img:hover {
-    border: 1px solid darkkhaki;
+    border: 2px solid darkkhaki;
     opacity: 1;
-    -webkit-filter: drop-shadow(7px 7px 10px darkkhaki); }
+    -webkit-filter: drop-shadow(7px 7px 10px teal); }
   #projects .ready {
     margin-top: 13px;
     margin-left: 10px;
@@ -141,21 +141,25 @@ a {
     border-radius: 6px;
     border-left: 2px solid #FAFCFC; }
   #projects .respon {
+    margin-top: 13px;
     margin-left: 10px;
     width: 85%;
     border-radius: 6px;
     border-left: 2px solid #FAFCFC; }
   #projects .accord {
+    margin-top: 13px;
     margin-left: 10px;
     width: 85%;
     border-radius: 6px;
     border-left: 2px solid #FAFCFC; }
   #projects .mem-game {
+    margin-top: 13px;
     margin-left: 10px;
     width: 85%;
     border-radius: 6px;
     border-left: 2px solid #FAFCFC; }
   #projects .chatti {
+    margin-top: 13px;
     margin-left: 10px;
     width: 85%;
     border-radius: 6px;
@@ -176,15 +180,56 @@ a {
     background-color: lightcyan;
     font-weight: bold;
     font-size: 17px; }
-  #projects .ghsite {
+  #projects .ghsite1 {
+    margin-top: 5px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 13px;
     color: black;
     background-color: lightcyan;
     margin-left: 1em; }
-    #projects .ghsite:hover {
-      background-color: #ffb117; }
+    #projects .ghsite1:hover {
+      background-color: lightgrey; }
+  #projects .ghsite1 {
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    color: black;
+    background-color: lightcyan;
+    margin-left: 1em; }
+    #projects .ghsite1:hover {
+      background-color: lightgrey; }
+  #projects .ghsite2 {
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    color: black;
+    background-color: lightcyan;
+    margin-left: 1em; }
+    #projects .ghsite2:hover {
+      background-color: lightgrey; }
+  #projects .ghsite3 {
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    color: black;
+    background-color: lightcyan;
+    margin-left: 1em; }
+    #projects .ghsite3:hover {
+      background-color: lightgrey; }
+  #projects .ghsite4 {
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    color: black;
+    background-color: lightcyan;
+    margin-left: 1em; }
+    #projects .ghsite4:hover {
+      background-color: lightgrey; }
 
 /***************** end of projects.html **************/
 /*

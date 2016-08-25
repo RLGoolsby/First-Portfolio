@@ -2,7 +2,7 @@ $ffamily: "Open Sans Condensed", Verdana, sans-serif;
 
 body{
   width:100%;
-background-color: darkkhaki;
+background-color: lightgrey;
   // background-color:#EBF0F0;
 }
 
@@ -73,7 +73,7 @@ a{
   margin-left: 0.2em;
 
 &:hover{
-  color: #07A39B;
+  color: #fff;
   cursor: pointer;
   }
 }
@@ -201,10 +201,10 @@ h1{
 
 
         img:hover{
-          border: 1px solid darkkhaki;
+          border: 2px solid darkkhaki;
           opacity: 1;
           // filter: drop-shadow(7px 7px 10px darkkhaki);
-          -webkit-filter: drop-shadow(7px 7px 10px darkkhaki);
+          -webkit-filter: drop-shadow(7px 7px 10px teal);
         }
 
 
@@ -219,6 +219,7 @@ h1{
 
 
       .respon{
+        margin-top: 13px;
         margin-left: 10px;
         width: 85%;
         border-radius: 6px;
@@ -226,6 +227,7 @@ h1{
 
         }
         .accord{
+        margin-top: 13px;
         margin-left: 10px;
         width: 85%;
         border-radius: 6px;
@@ -233,6 +235,7 @@ h1{
 
       }
         .mem-game{
+        margin-top: 13px;
         margin-left: 10px;
         width: 85%;
         border-radius: 6px;
@@ -240,6 +243,7 @@ h1{
 
       }
         .chatti{
+          margin-top: 13px;
           margin-left: 10px;
           width: 85%;
           border-radius: 6px;
@@ -268,15 +272,68 @@ h1{
         font-size: 17px;
 
         }
-        .ghsite{
+        .ghsite1{
+          margin-top: 5px;
           border-radius: 5px;
           cursor:pointer;
-          font-size: 14px;
+          font-size: 13px;
           color: black;
           background-color: lightcyan;
           margin-left: 1em;
           &:hover{
-            background-color: #ffb117;
+            background-color: lightgrey;
+          }
+        }
+
+        .ghsite1{
+          margin-top: 5px;
+          border-radius: 5px;
+          cursor:pointer;
+          font-size: 13px;
+          color: black;
+          background-color: lightcyan;
+          margin-left: 1em;
+          &:hover{
+            background-color: lightgrey;
+          }
+        }
+
+        .ghsite2{
+          margin-top: 5px;
+          border-radius: 5px;
+          cursor:pointer;
+          font-size: 13px;
+          color: black;
+          background-color: lightcyan;
+          margin-left: 1em;
+          &:hover{
+            background-color: lightgrey;
+          }
+        }
+
+        .ghsite3{
+          margin-top: 5px;
+          border-radius: 5px;
+          cursor:pointer;
+          font-size: 13px;
+          color: black;
+          background-color: lightcyan;
+          margin-left: 1em;
+          &:hover{
+            background-color: lightgrey;
+          }
+        }
+
+        .ghsite4{
+          margin-top: 5px;
+          border-radius: 5px;
+          cursor:pointer;
+          font-size: 13px;
+          color: black;
+          background-color: lightcyan;
+          margin-left: 1em;
+          &:hover{
+            background-color: lightgrey;
           }
         }
 
