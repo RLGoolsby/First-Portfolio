@@ -130,15 +130,16 @@ a {
     display: block;
     color: black;
     padding-bottom: 0.4em; }
+  #projects img:hover {
+    border: 1px solid darkkhaki;
+    opacity: 1;
+    -webkit-filter: drop-shadow(7px 7px 10px darkkhaki); }
   #projects .ready {
     margin-top: 13px;
     margin-left: 10px;
     width: 85%;
     border-radius: 6px;
-    border-left: 2px solid #FAFCFC;
-    background-color: none; }
-    #projects .ready:hover {
-      background-color: red; }
+    border-left: 2px solid #FAFCFC; }
   #projects .respon {
     margin-left: 10px;
     width: 85%;
@@ -183,7 +184,7 @@ a {
     background-color: lightcyan;
     margin-left: 1em; }
     #projects .ghsite:hover {
-      color: #ffb117; }
+      background-color: #ffb117; }
 
 /***************** end of projects.html **************/
 /*

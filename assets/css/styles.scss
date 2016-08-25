@@ -199,16 +199,22 @@ h1{
         padding-bottom: 0.4em;
         }
 
+
+        img:hover{
+          border: 1px solid darkkhaki;
+          opacity: 1;
+          // filter: drop-shadow(7px 7px 10px darkkhaki);
+          -webkit-filter: drop-shadow(7px 7px 10px darkkhaki);
+        }
+
+
       .ready{
         margin-top: 13px;
         margin-left: 10px;
         width: 85%;
         border-radius: 6px;
         border-left: 2px solid #FAFCFC;
-        background-color: none;
-        &:hover{
-          background-color: red;
-        }
+
       }
 
 
@@ -270,7 +276,7 @@ h1{
           background-color: lightcyan;
           margin-left: 1em;
           &:hover{
-            color: #ffb117;
+            background-color: #ffb117;
           }
         }
 
