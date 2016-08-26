@@ -2,8 +2,9 @@ $ffamily: "Open Sans Condensed", Verdana, sans-serif;
 
 body{
   width:100%;
-background-color: lightgrey;
+// background-color: #97ADAB;
   // background-color:#EBF0F0;
+  background-color: lightcyan;
 }
 
 
@@ -21,6 +22,7 @@ nav{
   .my-name{
     font-family: $ffamily;
     margin-top: 0.5em;
+    // color: #3C3D3D;
     // margin-left: 0.5em;
     text-align: left;
     // margin-left: 0.2em;
@@ -31,9 +33,11 @@ nav{
 
   .fa.fa-leaf{
     text-align: left;
+    color: #00D4D4;
     margin-top: 1em;
     // margin-left: 2em;
-    padding-right: 2em;
+    padding-right: 0.2em;
+    // padding-left: 1em;
 
     }
 
@@ -63,18 +67,26 @@ nav{
 }
 .projects{
   padding-top: 3%;
+  &:hover{
+    color: #fff;
+    cursor: pointer;
+    -webkit-filter: drop-shadow(7px 7px 10px #043630);
+  }
 }
 
 a{
   text-decoration: none;
   color: black;
   font-size: 1.2em;
+
   // padding-bottom: 0.5em;
   margin-left: 0.2em;
 
 &:hover{
   color: #fff;
   cursor: pointer;
+  -webkit-filter: drop-shadow(5px 5px 10px #043630);
+
   }
 }
 
@@ -98,16 +110,16 @@ a{
   height: 5em;
 
 i{
-  margin-left: 1em;
-  padding-top: 1em;
+  margin-left: 0.5em;
+  padding-top: 0.5em;
   color: #fff;
-  // padding-right: 1em;
-  padding-bottom: 1em;
+  padding-right: 0.1em;
+  // padding-bottom: 1em;
 &:hover{
   color: #00D4D4;
 }
 .fa.fa-github{
-  font-size: larger;
+
   cursor: pointer;
 }
 
@@ -172,7 +184,8 @@ h1{
 /***********  projects.html  **********************/
 #projects{
   // background-color:#2AC9D1;
-  background-color: lightcyan;
+  // background-color: lightcyan;
+  background-color: #79F7EF;
   border-bottom: 10px solid black;
   margin-left: 9%;
   border-radius: 5px;
@@ -192,8 +205,8 @@ h1{
         font-family: $ffamily;
         font-weight: bolder;
         border-bottom: 3px solid black;
-        margin-bottom: 0.5em;
-        margin-top: 16%;
+        margin-bottom: 0.8em;
+        margin-top: 17%;
         display: block;
         color: black;
         padding-bottom: 0.4em;
@@ -201,19 +214,20 @@ h1{
 
 
         img:hover{
-          border: 2px solid darkkhaki;
+          border: 2px solid teal;
           opacity: 1;
-          // filter: drop-shadow(7px 7px 10px darkkhaki);
-          -webkit-filter: drop-shadow(7px 7px 10px teal);
+          filter: drop-shadow(7px 7px 10px lightcyan);
+          -webkit-filter: drop-shadow(7px 7px 10px lightcyan);
+
+
         }
-
-
       .ready{
         margin-top: 13px;
         margin-left: 10px;
         width: 85%;
         border-radius: 6px;
         border-left: 2px solid #FAFCFC;
+        cursor: pointer;
 
       }
 
@@ -224,7 +238,12 @@ h1{
         width: 85%;
         border-radius: 6px;
         border-left: 2px solid #FAFCFC;
+        cursor: pointer;
+        &:hover{
+          border: 2px solid black;
+        -webkit-filter: drop-shadow(10px 10px 20px #043630);
 
+        }
         }
         .accord{
         margin-top: 13px;
@@ -232,7 +251,11 @@ h1{
         width: 85%;
         border-radius: 6px;
         border-left: 2px solid #FAFCFC;
+        cursor: pointer;
+        &:hover{
+        -webkit-filter: drop-shadow(10px 10px 20px #043630);
 
+        }
       }
         .mem-game{
         margin-top: 13px;
@@ -240,7 +263,11 @@ h1{
         width: 85%;
         border-radius: 6px;
         border-left: 2px solid #FAFCFC;
+        cursor: pointer;
+        &:hover{
+        -webkit-filter: drop-shadow(10px 10px 20px #043630);
 
+        }
       }
         .chatti{
           margin-top: 13px;
@@ -248,7 +275,14 @@ h1{
           width: 85%;
           border-radius: 6px;
           border-left: 2px solid  #FAFCFC;
+          cursor: pointer;
+          &:hover{
+          -webkit-filter: drop-shadow(10px 10px 20px #043630);
+
+          }
         }
+
+
       h2{
         font-family: "Lato", Verdana, sans-serif;
         font-weight: bold;
@@ -259,13 +293,13 @@ h1{
         padding-top: 2px;
         padding-bottom: 0.5em;
         padding-left: 2em;
-
+        margin-right: 0.5em;
       }
       p{
         font-family: "Lato", Verdana, sans-serif;
-        // margin-left: 1em;
+        margin-right: 2em;
         text-align: right;
-        background-color: lightcyan;
+        background-color: #79F7EF;
         //  line-height: 2;
         font-weight: bold;
         // padding-bottom: 0.7em;
@@ -278,10 +312,11 @@ h1{
           cursor:pointer;
           font-size: 13px;
           color: black;
-          background-color: lightcyan;
+          // background-color: #79F7EF;
           margin-left: 1em;
           &:hover{
-            background-color: lightgrey;
+            // color: #fff;
+            background-color: grey;
           }
         }
 
@@ -291,10 +326,11 @@ h1{
           cursor:pointer;
           font-size: 13px;
           color: black;
-          background-color: lightcyan;
+          // background-color: lightcyan;
           margin-left: 1em;
           &:hover{
-            background-color: lightgrey;
+            // color: #fff;
+            background-color: grey;
           }
         }
 
@@ -304,10 +340,10 @@ h1{
           cursor:pointer;
           font-size: 13px;
           color: black;
-          background-color: lightcyan;
+          // background-color: lightcyan;
           margin-left: 1em;
           &:hover{
-            background-color: lightgrey;
+            background-color: grey;
           }
         }
 
@@ -317,10 +353,10 @@ h1{
           cursor:pointer;
           font-size: 13px;
           color: black;
-          background-color: lightcyan;
+          // background-color: lightcyan;
           margin-left: 1em;
           &:hover{
-            background-color: lightgrey;
+            background-color: grey;
           }
         }
 
@@ -330,10 +366,10 @@ h1{
           cursor:pointer;
           font-size: 13px;
           color: black;
-          background-color: lightcyan;
+          // background-color: lightcyan;
           margin-left: 1em;
           &:hover{
-            background-color: lightgrey;
+            background-color: grey;
           }
         }
 
