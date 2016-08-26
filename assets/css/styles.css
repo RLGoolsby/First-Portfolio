@@ -247,6 +247,21 @@ a {
     margin-left: 1em; }
     #projects .ghsite4:hover {
       background-color: grey; }
+  #projects .vs1 {
+    text-align: right;
+    margin-right: 5em; }
+  #projects .vs2 {
+    text-align: right;
+    margin-right: 5em; }
+  #projects .vs3 {
+    text-align: right;
+    margin-right: 5em; }
+  #projects .vs4 {
+    text-align: right;
+    margin-right: 5em; }
+  #projects .vs5 {
+    text-align: right;
+    margin-right: 5em; }
 
 /***************** end of projects.html **************/
 /*
