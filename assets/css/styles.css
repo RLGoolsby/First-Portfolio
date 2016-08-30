@@ -67,7 +67,6 @@ a {
 
 /******* CONTENT RIGHT *********/
 .content-right {
-  position: relative;
   top: 0;
   left: 50%; }
 
@@ -94,9 +93,10 @@ i {
 
 /*******  img.html *********/
 #img {
+  position: fixed;
   background-color: lightcyan;
   top: 9%;
-  margin-left: 13%;
+  margin-left: 40%;
   border-radius: 5px;
   height: 77em; }
   #img h1 {
@@ -108,16 +108,15 @@ i {
     letter-spacing: 2; }
 
 span {
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: "Open Sans Condensed", Verdana, sans-serif;
   font-weight: bolder; }
 
 .paragraph {
-  position: fixed;
   display: block;
   font-family: "Open Sans Condensed", Verdana, sans-serif;
   font-weight: bold;
-  font-size: 1.9em;
+  font-size: 1.3em;
   color: black;
   margin-right: 2em;
   padding-top: 5em;
@@ -138,9 +137,9 @@ span {
 /************  END OF img.html *******************/
 /***********  projects.html  **********************/
 #projects {
-  position: relative;
+  position: absolute;
   background-color: #79F7EF;
-  margin-left: 15%;
+  margin-left: 40%;
   border-radius: 5px; }
   #projects .fa.fa-backward {
     padding-top: 0.8em;
@@ -348,7 +347,7 @@ span {
 .grid {
   width: 100%;
   max-width: 1140px;
-  min-width: 748px;
+  min-width: 768px;
   /* when using padded grid on ipad in portrait mode, width should be viewport-width - padding = (768 - 20) = 748. actually, it should be even smaller to allow for padding of grid containing element */
   margin: 0 auto;
   overflow: hidden; }
@@ -360,7 +359,7 @@ span {
 
 .grid-pad {
   padding-top: 0px;
-  padding-left: 20px;
+  padding-left: 50px;
   /* grid-space to left */
   padding-right: 0;
   /* grid-space to right: (grid-space-left - column-space) e.g. 20px-20px=0 */ }
