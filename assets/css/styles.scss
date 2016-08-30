@@ -12,9 +12,14 @@ body{
 
 
 /*******    HOME PAGE  *********/
-nav{
+.header-left{
   position: fixed;
-  width: 30%;
+}
+
+
+nav{
+
+  // width: 26%;
   top: 0;
   // left: 1%;
   // margin-bottom: 10%;
@@ -22,6 +27,7 @@ nav{
   .my-name{
     font-family: $ffamily;
     margin-top: 0.5em;
+    margin-bottom: 0.3em;
     // color: #3C3D3D;
     // margin-left: 0.5em;
     text-align: left;
@@ -34,9 +40,10 @@ nav{
   .fa.fa-leaf{
     text-align: left;
     color: #00D4D4;
-    margin-top: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
     // margin-left: 2em;
-    padding-right: 0.2em;
+    padding-right: 0.5em;
     // padding-left: 1em;
 
     }
@@ -65,8 +72,22 @@ nav{
   // margin-bottom: 0.5em;
   font-family: $ffamily;
 }
+.one{
+  margin-top: 1em;
+}
+.two{
+  // margin-top: 0.2em;
+  margin-left: 7em;
+}
+.three{
+  // margin-top: 0.8em;
+  margin-left: 4em;
+}
+
 .projects{
   padding-top: 1.5%;
+  border-bottom: 1px solid black;
+  border-width: medium;
   &:hover{
     color: #fff;
     cursor: pointer;
@@ -77,7 +98,7 @@ nav{
 a{
   text-decoration: none;
   color: black;
-  font-size: 1.2em;
+  font-size: 1.3em;
 
   // padding-bottom: 0.5em;
   margin-left: 0.2em;
@@ -92,11 +113,11 @@ a{
 
 /******* CONTENT RIGHT *********/
 .content-right{
-  width: 75%;
+  // width: 100%;
   // height: 35em;
   position: relative;
   top: 0;
-  left: 29%;
+  left: 50%;
   }
 
 
@@ -121,7 +142,7 @@ i{
 }
 }
 .fa.fa-github{
-  margin-left: 2em;
+  // margin-left: 2em;
   padding-right: 0.6em;
   cursor: pointer;
 }
@@ -136,7 +157,7 @@ i{
   }
 
 .hrefaddress{
-  margin-right: 3em;
+  // margin-right: 3em;
 }
 
 
@@ -162,14 +183,16 @@ h1{
 }
 }
 span{
-  font-size: 1.3em;
+  font-size: 2em;
+  font-family: $ffamily;
+  font-weight: bolder;
 }
   .paragraph{
     position: fixed;
     display: block;
-    font-family: "Lato",Verdana, sans-serif;
+    font-family: $ffamily;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.9em;
     color: black;
     margin-right: 2em;
     padding-top: 5em;
@@ -180,7 +203,8 @@ span{
 
   .me{
     margin-top: -1em;
-    margin-left: 4em;
+    margin-left: 3em;
+    margin-bottom: 1em;
     // margin-left: 5em;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -457,14 +481,15 @@ span{
 @media (min-width: 750px) and (max-width: 1024px) {
   nav{
     width: 25%;
-    margin: 2%auto;
+    margin: 2% auto;
   }
 }
 
 @media (min-width: 1025px) {
   nav{
     width: 30%;
-    margin: 2% auto;
+    margin: 2% 4% 2% 1%;
+
   }
   /*.gifimage {
     background-size: 100%;
@@ -478,21 +503,21 @@ span{
 @media (min-width: 568px) and (max-width: 749px) {
   .rightcontent {
     width: 50%;
-    margin: 1% auto;
+    margin: 2% auto;
   }
 }
 
 @media (min-width: 750px) and (max-width: 1024px) {
 .rightcontent{
     width: 55%;
-    margin: 1%auto;
+    margin: 2%auto;
   }
 }
 
 @media (min-width: 1025px) {
   .rightcontent {
     width: 60%;
-    margin: 1% auto;
+    margin: 2% auto;
   }
 
 }
