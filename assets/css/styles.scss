@@ -26,7 +26,7 @@ nav{
     // margin-left: 0.5em;
     text-align: left;
     // margin-left: 0.2em;
-    font-size: 4em;
+    font-size: 5em;
   }
   // .left-side-icons{
   //   text-align: center;
@@ -93,7 +93,6 @@ a{
 /******* CONTENT RIGHT *********/
 .content-right{
   width: 75%;
-
   // height: 35em;
   position: relative;
   top: 0;
@@ -162,6 +161,9 @@ h1{
 
 }
 }
+span{
+  font-size: 1.3em;
+}
   .paragraph{
     position: fixed;
     display: block;
@@ -177,7 +179,8 @@ h1{
   }
 
   .me{
-    margin-top: 26em;
+    margin-top: -1em;
+    margin-left: 4em;
     // margin-left: 5em;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -203,7 +206,7 @@ h1{
   // background-color:#2AC9D1;
   // background-color: lightcyan;
   background-color: #79F7EF;
-  border-bottom: 10px solid black;
+  // border-bottom: 10px solid black;
   margin-left: 19%;
   border-radius: 5px;
   .fa.fa-backward{
@@ -447,21 +450,21 @@ h1{
 @media (min-width: 568px) and (max-width: 749px) {
   nav {
     width: 20%;
-    margin: 1% auto;
+    margin: 2% auto;
   }
 }
 
 @media (min-width: 750px) and (max-width: 1024px) {
   nav{
     width: 25%;
-    margin: 1%auto;
+    margin: 2%auto;
   }
 }
 
 @media (min-width: 1025px) {
   nav{
     width: 30%;
-    margin: 1% auto;
+    margin: 2% auto;
   }
   /*.gifimage {
     background-size: 100%;

@@ -11,7 +11,7 @@ nav {
     font-family: "Open Sans Condensed", Verdana, sans-serif;
     margin-top: 0.5em;
     text-align: left;
-    font-size: 4em; }
+    font-size: 5em; }
   nav .fa.fa-leaf {
     text-align: left;
     color: #00D4D4;
@@ -97,6 +97,9 @@ i {
     padding-top: 2em;
     letter-spacing: 2; }
 
+span {
+  font-size: 1.3em; }
+
 .paragraph {
   position: fixed;
   display: block;
@@ -111,7 +114,8 @@ i {
   letter-spacing: 2px; }
 
 .me {
-  margin-top: 26em;
+  margin-top: -1em;
+  margin-left: 4em;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   border-radius: 50%;
@@ -122,7 +126,6 @@ i {
 /***********  projects.html  **********************/
 #projects {
   background-color: #79F7EF;
-  border-bottom: 10px solid black;
   margin-left: 19%;
   border-radius: 5px; }
   #projects .fa.fa-backward {
@@ -278,15 +281,15 @@ i {
 @media (min-width: 568px) and (max-width: 749px) {
   nav {
     width: 20%;
-    margin: 1% auto; } }
+    margin: 2% auto; } }
 @media (min-width: 750px) and (max-width: 1024px) {
   nav {
     width: 25%;
-    margin: 1% auto; } }
+    margin: 2% auto; } }
 @media (min-width: 1025px) {
   nav {
     width: 30%;
-    margin: 1% auto; }
+    margin: 2% auto; }
 
   /*.gifimage {
     background-size: 100%;
