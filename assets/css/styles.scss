@@ -27,8 +27,8 @@ nav{
 
   .my-name{
     font-family: $ffamily;
-    margin-top: 0.5em;
-    margin-bottom: 0.3em;
+    margin-top: 0.2em;
+    // margin-bottom: 0.3em;
     // color: #3C3D3D;
     // margin-left: 0.5em;
     text-align: left;
@@ -42,7 +42,7 @@ nav{
     text-align: left;
     color: #00D4D4;
     margin-top: 1.5em;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
     // margin-left: 2em;
     padding-right: 0.5em;
     // padding-left: 1em;
@@ -51,13 +51,13 @@ nav{
 
   .title{
     font-family: $ffamily;
-    padding-top: 0.3em;
+    // padding-top: 0.3em;
     // margin-bottom: 1em;
     // margin-left: 0.5em;
     // margin-top: 1em;
     // margin-left: 0.4em;
     text-align: left;
-    font-size: 3em;
+    font-size: 2.2em;
   }
   .email{
     font-size: 20px;
@@ -67,14 +67,14 @@ nav{
 /****  on the left-side of home page *****/
 
 .links{
-  font-size: 2.5em;
+  font-size: 2em;
   font-weight: bolder;
   margin-left: 1em;
   // margin-bottom: 0.5em;
   font-family: $ffamily;
 }
 .one{
-  margin-top: 1em;
+  margin-top: 0.6em;
 }
 .two{
   // margin-top: 0.2em;
@@ -193,11 +193,11 @@ span{
     // position: fixed;
     display: block;
     font-family: $ffamily;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 1.3em;
     color: black;
     margin-right: 2em;
-    padding-top: 5em;
+    padding-top: 2em;
     padding-left: 1em;
     line-height: 1.5;
     letter-spacing: 2px;
@@ -253,7 +253,7 @@ span{
         font-weight: bolder;
         border-bottom: 3px solid black;
         margin-bottom: 0.8em;
-        margin-top: 16%;
+        margin-top: 19%;
         display: block;
         color: black;
         padding-bottom: 0.4em;
@@ -474,21 +474,21 @@ span{
 }
 
 
-@media (min-width: 568px) and (max-width: 749px) {
+@media (min-width: 320px) and (max-width: 749px) {
   nav {
     width: 20%;
     margin: 2% auto;
   }
 }
 
-@media (min-width: 750px) and (max-width: 1024px) {
+@media (min-width: 750px) and (max-width: 1439px) {
   nav{
     width: 25%;
     margin: 2% auto;
   }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1440px) {
   nav{
     width: 30%;
     margin: 2% auto;
@@ -503,21 +503,21 @@ span{
 
 
 
-@media (min-width: 568px) and (max-width: 749px) {
+@media (min-width: 320px) and (max-width: 749px) {
   .rightcontent {
     width: 50%;
     margin: 2% auto;
   }
 }
 
-@media (min-width: 750px) and (max-width: 1024px) {
+@media (min-width: 750px) and (max-width: 1439px) {
 .rightcontent{
     width: 55%;
     margin: 2%auto;
   }
 }
 
-@media (max-width: 1025px) {
+@media (min-width: 1440px) {
   .rightcontent {
     width: 60%;
     margin: 2% auto;
@@ -555,8 +555,8 @@ span{
 
 .grid {
 	width: 100%;
-	max-width: 1140px;
-	min-width: 768px; /* when using padded grid on ipad in portrait mode, width should be viewport-width - padding = (768 - 20) = 748. actually, it should be even smaller to allow for padding of grid containing element */
+	max-width: 1440px;
+	min-width: 320px; /* when using padded grid on ipad in portrait mode, width should be viewport-width - padding = (768 - 20) = 748. actually, it should be even smaller to allow for padding of grid containing element */
 	margin: 0 auto;
 	overflow: hidden;
 }
