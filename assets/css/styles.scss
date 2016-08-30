@@ -18,6 +18,7 @@ body{
 
 
 nav{
+  position: fixed;
 
   // width: 26%;
   top: 0;
@@ -227,11 +228,12 @@ span{
 
 /***********  projects.html  **********************/
 #projects{
+  position: relative;
   // background-color:#2AC9D1;
   // background-color: lightcyan;
   background-color: #79F7EF;
   // border-bottom: 10px solid black;
-  margin-left: 19%;
+  margin-left: 15%;
   border-radius: 5px;
   .fa.fa-backward{
   padding-top: 0.8em;
@@ -241,7 +243,7 @@ span{
 
     ul{
       width: 85%;
-      margin-left: 3.6em;
+      margin-left: 5em;
       // margin-right: 1em;
     }
        li{
@@ -250,7 +252,7 @@ span{
         font-weight: bolder;
         border-bottom: 3px solid black;
         margin-bottom: 0.8em;
-        margin-top: 9%;
+        margin-top: 16%;
         display: block;
         color: black;
         padding-bottom: 0.4em;
@@ -488,7 +490,7 @@ span{
 @media (min-width: 1025px) {
   nav{
     width: 30%;
-    margin: 2% 4% 2% 1%;
+    margin: 2% auto;
 
   }
   /*.gifimage {
@@ -514,7 +516,7 @@ span{
   }
 }
 
-@media (min-width: 1025px) {
+@media (max-width: 1025px) {
   .rightcontent {
     width: 60%;
     margin: 2% auto;

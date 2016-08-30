@@ -7,6 +7,7 @@ body {
   position: fixed; }
 
 nav {
+  position: fixed;
   top: 0; }
   nav .my-name {
     font-family: "Open Sans Condensed", Verdana, sans-serif;
@@ -137,22 +138,23 @@ span {
 /************  END OF img.html *******************/
 /***********  projects.html  **********************/
 #projects {
+  position: relative;
   background-color: #79F7EF;
-  margin-left: 19%;
+  margin-left: 15%;
   border-radius: 5px; }
   #projects .fa.fa-backward {
     padding-top: 0.8em;
     padding-bottom: 0.8em; }
   #projects ul {
     width: 85%;
-    margin-left: 3.6em; }
+    margin-left: 5em; }
   #projects li {
     font-size: 40px;
     font-family: "Open Sans Condensed", Verdana, sans-serif;
     font-weight: bolder;
     border-bottom: 3px solid black;
     margin-bottom: 0.8em;
-    margin-top: 9%;
+    margin-top: 16%;
     display: block;
     color: black;
     padding-bottom: 0.4em; }
@@ -301,7 +303,7 @@ span {
 @media (min-width: 1025px) {
   nav {
     width: 30%;
-    margin: 2% 4% 2% 1%; }
+    margin: 2% auto; }
 
   /*.gifimage {
     background-size: 100%;
@@ -316,7 +318,7 @@ span {
   .rightcontent {
     width: 55%;
     margin: 2% auto; } }
-@media (min-width: 1025px) {
+@media (max-width: 1025px) {
   .rightcontent {
     width: 60%;
     margin: 2% auto; } }
