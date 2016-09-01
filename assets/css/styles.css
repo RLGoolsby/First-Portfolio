@@ -61,7 +61,7 @@ a {
   a:hover {
     color: #fff;
     cursor: pointer;
-    -webkit-filter: drop-shadow(5px 5px 10px #043630); }
+    -webkit-filter: drop-shadow(7px 7px 14px #043630); }
 
 /******* CONTENT RIGHT *********/
 .content-right {
@@ -71,20 +71,23 @@ a {
 i {
   display: inline-block;
   padding-top: 0.5em;
-  color: #fff;
   padding-right: 0.1em;
   color: black; }
-  i:hover {
-    color: #00D4D4; }
 
 .fa.fa-github {
   cursor: pointer; }
+  .fa.fa-github:hover {
+    color: #fff; }
 
 .fa.fa-linkedin {
   cursor: pointer; }
+  .fa.fa-linkedin:hover {
+    color: #fff; }
 
 .fa.fa-envelope {
   cursor: pointer; }
+  .fa.fa-envelope:hover {
+    color: #fff; }
 
 /*******  img.html *********/
 #img {
@@ -138,6 +141,10 @@ span {
   #projects .fa.fa-backward {
     padding-top: 0.8em;
     padding-bottom: 0.8em; }
+  #projects ul {
+    width: 85%;
+    margin-left: 5em;
+    margin-right: 1em; }
   #projects li {
     font-size: 40px;
     font-family: "Open Sans Condensed", Verdana, sans-serif;

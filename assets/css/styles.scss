@@ -107,7 +107,7 @@ a{
 &:hover{
   color: #fff;
   cursor: pointer;
-  -webkit-filter: drop-shadow(5px 5px 10px #043630);
+  -webkit-filter: drop-shadow(7px 7px 14px #043630);
 
   }
 }
@@ -138,24 +138,31 @@ i{
   padding-right: 0.1em;
   color: black;
   // padding-bottom: 1em;
-}
-&:hover{
-  color: #fff;
+
 
 }
 .fa.fa-github{
   // margin-left: 2em;
   // padding-right: 0.6em;
   cursor: pointer;
+  &:hover{
+    color: #fff;
+  }
 }
 
 .fa.fa-linkedin{
   // padding-right: 0.6em;
   cursor: pointer;
+  &:hover{
+    color: #fff;
+  }
 }
 
 .fa.fa-envelope{
   cursor: pointer;
+  &:hover{
+    color: #fff;
+  }
   }
 
 .hrefaddress{
@@ -243,11 +250,11 @@ span{
 
   }
 
-    // ul{
-    //   width: 85%;
-    //   margin-left: 5em;
-    //   margin-right: 1em;
-    // }
+    ul{
+      width: 85%;
+      margin-left: 5em;
+      margin-right: 1em;
+    }
        li{
         font-size: 40px;
         font-family: $ffamily;
@@ -290,10 +297,7 @@ span{
         border-radius: 6px;
         border-left: 2px solid #FAFCFC;
         cursor: pointer;
-        // &:hover{
-        // -webkit-filter: drop-shadow(10px 10px 20px #043630);
-        //
-        // }
+
         }
         .accord{
         margin-top: 13px;
