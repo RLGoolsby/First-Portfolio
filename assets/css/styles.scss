@@ -88,7 +88,7 @@ nav{
 .projects{
   padding-top: 1.5%;
   border-bottom: 1px solid black;
-  border-width: medium;
+  border-bottom-width: medium;
   &:hover{
     color: #fff;
     cursor: pointer;
@@ -220,8 +220,8 @@ span{
     background-position: 50% 50%;
     background-repeat: no-repeat;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 261px;
     // margin-left: 1em;
     // margin-top: 1em;
     // margin-right: 6em;
@@ -281,7 +281,7 @@ span{
         // }
 
       .ready{
-        margin-top: 15px;
+        margin-top: 18px;
         margin-left: 10px;
         width: 85%;
         border-radius: 6px;
@@ -293,7 +293,7 @@ span{
 
 
       .respon{
-        margin-top: 13px;
+        margin-top: 18px;
         margin-left: 10px;
         width: 85%;
         border-radius: 6px;
@@ -303,7 +303,7 @@ span{
 
         }
         .accord{
-        margin-top: 13px;
+        margin-top: 18px;
         margin-left: 10px;
         width: 85%;
         border-radius: 6px;
@@ -328,7 +328,7 @@ span{
       //   }
       // }
         .chatti{
-          margin-top: 13px;
+          margin-top: 18px;
           margin-left: 10px;
           width: 85%;
           border-radius: 6px;
@@ -419,6 +419,7 @@ span{
           border-radius: 5px;
           cursor:pointer;
           font-size: 17px;
+          font-weight: normal;
           color: black;
           margin-left: 1em;
           margin-bottom: 0.3em;
@@ -444,53 +445,72 @@ span{
 
         .vs1{
           font-family: "Lato", Verdana, sans-serif;
-          font-size: 18px;
+          font-size: 19px;
+          font-weight: normal;
           cursor: pointer;
           border-radius: 5px;
           background-color: grey;
           // text-align: right;
           margin-right: 2em;
-          
+          &:hover{
+            color: #fff;
+          }
 
         }
 
         .vs2{
           font-family: "Lato", Verdana, sans-serif;
-          font-size: 18px;
+          font-size: 19px;
+          font-weight: normal;
           cursor: pointer;
           border-radius: 5px;
           background-color: grey;
           // text-align: right;
           margin-right: 2em;
+          &:hover{
+            color: #fff;
+          }
         }
 
         .vs3{  //memory game layout
           font-family: "Lato", Verdana, sans-serif;
-          font-size: 18px;
+          font-size: 19px;
+          font-weight: normal;
           border-radius: 5px;
           background-color: grey;
           // text-align: right;
           margin-right: 2em;
+          &:hover{
+            color: #fff;
+          }
         }
 
         .vs4{
           font-family: "Lato", Verdana, sans-serif;
-          font-size: 18px;
+          font-size: 19px;
+          font-weight: normal;
           cursor: pointer;
           border-radius: 5px;
           background-color: grey;
           // text-align: right;
           margin-right: 2em;
+          &:hover{
+            color: #fff;
+          }
         }
 
         .vs5{
           font-family: "Lato", Verdana, sans-serif;
-          font-size: 18px;
+          font-size: 19px;
+          font-weight: normal;
           cursor: pointer;
           border-radius: 5px;
           background-color: grey;
           // text-align: right;
           margin-right: 2em;
+          &:hover{
+            color: #fff;
+          }
         }
 }
 
