@@ -70,7 +70,6 @@ a {
 
 i {
   display: inline-block;
-  margin-left: 0.2em;
   padding-top: 0.5em;
   color: #fff;
   padding-right: 0.1em;
@@ -79,11 +78,9 @@ i {
     color: #00D4D4; }
 
 .fa.fa-github {
-  padding-right: 0.6em;
   cursor: pointer; }
 
 .fa.fa-linkedin {
-  padding-right: 1em;
   cursor: pointer; }
 
 .fa.fa-envelope {
@@ -141,9 +138,6 @@ span {
   #projects .fa.fa-backward {
     padding-top: 0.8em;
     padding-bottom: 0.8em; }
-  #projects ul {
-    width: 85%;
-    margin-left: 5em; }
   #projects li {
     font-size: 40px;
     font-family: "Open Sans Condensed", Verdana, sans-serif;
@@ -154,11 +148,6 @@ span {
     display: block;
     color: black;
     padding-bottom: 0.4em; }
-  #projects img:hover {
-    border: 2px solid teal;
-    opacity: 1;
-    filter: drop-shadow(7px 7px 10px lightcyan);
-    -webkit-filter: drop-shadow(7px 7px 10px lightcyan); }
   #projects .ready {
     margin-top: 13px;
     margin-left: 10px;
@@ -173,9 +162,6 @@ span {
     border-radius: 6px;
     border-left: 2px solid #FAFCFC;
     cursor: pointer; }
-    #projects .respon:hover {
-      border: 2px solid black;
-      -webkit-filter: drop-shadow(10px 10px 20px #043630); }
   #projects .accord {
     margin-top: 13px;
     margin-left: 10px;
@@ -183,17 +169,6 @@ span {
     border-radius: 6px;
     border-left: 2px solid #FAFCFC;
     cursor: pointer; }
-    #projects .accord:hover {
-      -webkit-filter: drop-shadow(10px 10px 20px #043630); }
-  #projects .mem-game {
-    margin-top: 13px;
-    margin-left: 10px;
-    width: 85%;
-    border-radius: 6px;
-    border-left: 2px solid #FAFCFC;
-    cursor: pointer; }
-    #projects .mem-game:hover {
-      -webkit-filter: drop-shadow(10px 10px 20px #043630); }
   #projects .chatti {
     margin-top: 13px;
     margin-left: 10px;
@@ -201,8 +176,6 @@ span {
     border-radius: 6px;
     border-left: 2px solid  #FAFCFC;
     cursor: pointer; }
-    #projects .chatti:hover {
-      -webkit-filter: drop-shadow(10px 10px 20px #043630); }
   #projects h2 {
     font-family: "Lato", Verdana, sans-serif;
     font-weight: bold;
@@ -283,6 +256,7 @@ span {
     margin-right: 5em; }
 
 /***************** end of projects.html **************/
+/******** Resume **********************/
 /*******   MEDIA QUERIES    ******/
 @media (max-width: 567px) {
   nav {
