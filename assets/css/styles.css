@@ -45,9 +45,8 @@ nav {
   margin-left: 4em; }
 
 .projects {
-  padding-top: 1.5%;
-  border-bottom: 1px solid black;
-  border-bottom-width: medium; }
+  margin-right: 6em;
+  padding-bottom: 0.3em; }
   .projects:hover {
     color: #fff;
     cursor: pointer;
@@ -70,7 +69,6 @@ a {
 
 i {
   display: inline-block;
-  padding-top: 0.5em;
   padding-right: 0.1em;
   color: black; }
 
@@ -259,7 +257,8 @@ span {
     background-color: grey;
     margin-right: 2em; }
     #projects .vs1:hover {
-      color: #fff; }
+      color: #fff;
+      border: none; }
   #projects .vs2 {
     font-family: "Lato", Verdana, sans-serif;
     font-size: 19px;
@@ -303,40 +302,12 @@ span {
 /***************** end of projects.html **************/
 /******** Resume **********************/
 /*******   MEDIA QUERIES    ******/
-@media (max-width: 567px) {
+@media (min-width: 1300px) {
   nav {
-    width: 20%;
-    margin: 15px auto; } }
-@media (min-width: 320px) and (max-width: 749px) {
-  nav {
-    width: 20%;
-    margin: 2% auto; } }
-@media (min-width: 750px) and (max-width: 1439px) {
-  nav {
-    width: 25%;
-    margin: 2% auto; } }
-@media (min-width: 1440px) {
-  nav {
-    width: 30%;
-    margin: 2% auto; }
-
-  /*.gifimage {
-    background-size: 100%;
-    max-width: 100%;
-    max-height: 100%;
-  }*/ }
-@media (min-width: 320px) and (max-width: 749px) {
+    font-size: 5em; } }
+@media (min-width: 1300px) {
   .rightcontent {
-    width: 50%;
-    margin: 2% auto; } }
-@media (min-width: 750px) and (max-width: 1439px) {
-  .rightcontent {
-    width: 55%;
-    margin: 2% auto; } }
-@media (min-width: 1440px) {
-  .rightcontent {
-    width: 60%;
-    margin: 2% auto; } }
+    width: 40%; } }
 /*
   Simple Grid
   Project Page - http://thisisdallas.github.com/Simple-Grid/
