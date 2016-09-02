@@ -3,7 +3,7 @@ body {
   background-color: lightcyan; }
 
 /*******    HOME PAGE  *********/
-.header-left {
+#mainpage {
   position: fixed; }
 
 nav {
@@ -64,8 +64,7 @@ a {
 
 /******* CONTENT RIGHT *********/
 .content-right {
-  top: 0;
-  left: 50%; }
+  top: 0; }
 
 i {
   display: inline-block;
@@ -134,7 +133,7 @@ span {
 #projects {
   position: absolute;
   background-color: #79F7EF;
-  margin-left: 40%;
+  margin-left: 50%;
   border-radius: 5px; }
   #projects .fa.fa-backward {
     padding-top: 0.8em;
@@ -302,12 +301,24 @@ span {
 /***************** end of projects.html **************/
 /******** Resume **********************/
 /*******   MEDIA QUERIES    ******/
-@media (min-width: 1300px) {
-  nav {
-    font-size: 5em; } }
-@media (min-width: 1300px) {
-  .rightcontent {
-    width: 40%; } }
+@media (min-width: 320px) and (max-width: 749px) {
+  #img {
+    width: 30%; }
+
+  #projects {
+    width: 30%; } }
+@media (min-width: 750px) and (max-width: 1329px) {
+  #img {
+    width: 50%; }
+
+  #projects {
+    width: 50% auto; } }
+@media (min-width: 1330px) {
+  #img {
+    width: 60%; }
+
+  #projects {
+    width: 60%; } }
 /*
   Simple Grid
   Project Page - http://thisisdallas.github.com/Simple-Grid/
@@ -333,7 +344,7 @@ span {
 
 .grid {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1330px;
   min-width: 320px;
   /* when using padded grid on ipad in portrait mode, width should be viewport-width - padding = (768 - 20) = 748. actually, it should be even smaller to allow for padding of grid containing element */
   margin: 0 auto;
