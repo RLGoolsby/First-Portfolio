@@ -12,10 +12,10 @@ body{
 
 
 /*******    HOME PAGE  *********/
-#mainpage {
-  position: fixed;
-  // width: 50%;
-}
+// #mainpage {
+//   position: fixed;
+//   // width: 50%;
+// }
 
 
 nav{
@@ -23,7 +23,7 @@ nav{
 
   // width: 26%;
   top: 0;
-  // left: 1%;
+  left: 1.5%;
   // margin-bottom: 10%;
 
   .my-name{
@@ -184,12 +184,13 @@ i{
 /*******  img.html *********/
 
 #img{
-  position: fixed;
+  position: absolute;
   background-color: lightcyan;
-  top: 9%;
-  margin-left: 40%;
+  top: 3%;
+  // padding-top: 5em;
+  margin-left: 55%;
   border-radius: 5px;
-  height: 77em;
+  // height: 77em;
 
 h1{
   font-size: 5em;
@@ -211,11 +212,13 @@ span{
     display: block;
     font-family: $ffamily;
     font-weight: bolder;
-    font-size: 1.3em;
+    font-size: 1.5em;
     color: black;
-    margin-right: 2em;
+    margin-left: 0.9em;
+    // margin-right: 2em;
     // padding-top: 2em;
-    padding-left: 1em;
+
+    // padding-left: 4em;
     line-height: 1.5;
     letter-spacing: 2px;
   }
@@ -245,13 +248,14 @@ span{
 
 
 /***********  projects.html  **********************/
+
 #projects{
   position: absolute;
   // background-color:#2AC9D1;
   // background-color: lightcyan;
   background-color: #79F7EF;
   // border-bottom: 10px solid black;
-  margin-left: 50%;
+  margin-left: 55%;
   border-radius: 5px;
   .fa.fa-backward{
   padding-top: 0.8em;
@@ -261,7 +265,7 @@ span{
 
     ul{
       width: 85%;
-      margin-left: 5em;
+      margin-left: 3em;
       margin-right: 1em;
     }
        li{
@@ -463,7 +467,7 @@ span{
           margin-right: 2em;
           &:hover{
             color: #fff;
-            border: none;
+            // border: none;
           }
 
         }
@@ -522,157 +526,151 @@ span{
             color: #fff;
           }
         }
-}
+      }
 
 
 /***************** end of projects.html **************/
 
-/******** Resume **********************/
 
-
-
-/*******   MEDIA QUERIES    ******/
-// @media (max-width: 567px) {
-//   nav {
-//     width: 20%;
-//     margin: 15px auto;
-//   }
-  // .contentcontainer {
-  //   font-size: 14px;
-  // }
-  // .newmessage {
-  //   height: 25px;
-  //   font-size: 14px;
-  // }
-  //
-  // .messagebox {
-  //   padding-top: 20px;
-  // }
-  //
-  // .sendbutton {
-  //   height: 25px;
-  // }
-  // .wrapper {
-  //   font-size: 32px;
-  // }
-// }
-
-
-// // wide desktop view //
-// @media (min-width: 1330px) and (max-width: 842px){
-//   #mainpage{
-//     }
-//     #img{
-//     }
-//     #projects{
+// /*******   MEDIA QUERIES    ******/
+// // @media (max-width: 567px) {
+// //   .col-1{
+// //     width: 20%;
+// //     margin: 15px auto;
+// //   }
+//   // .contentcontainer {
+//   //   font-size: 14px;
+//   // }
+//   // .newmessage {
+//   //   height: 25px;
+//   //   font-size: 14px;
+//   // }
+//   //
+//   // .messagebox {
+//   //   padding-top: 20px;
+//   // }
+//   //
+//   // .sendbutton {
+//   //   height: 25px;
+//   // }
+//   // .wrapper {
+//   //   font-size: 32px;
+//   // }
+// // }
 //
+//
+// // // wide desktop view //
+// @media (min-width: 1330px) and (max-width: 842px){
+//   .col-1{
+//     width: 8.66%;
+//     }
+//     .col-2{
+//     width: 16.66%;
 //     }
 //   }
 // //   normal monitor view //
 //   @media(min-width: 841px){
-//     body{
-//
-//     }
-//     #img{
-//
-//     }
-//     #projects{
-//
-//     }
-//   }
-// // tablet to desktop //
-//   @media (min-width : 600px) and (max-width : 840px){
-//     #mainpage{
-//
-//     }
-//       #img{
-//
-//     }
-//     #projects{
-//
-//     }
-//   }
-// // phone to tablet //
-//   @media(max-width: 599px){
-//     #mainpage{
-//
-//     }
-//       #img{
-//
-//     }
-//     #projects{
-//
-//     }
-//   }
-// // phone to tablet//
-//   @media(max-width: 475px){
-//     #mainpage{
-//     ;
-//     }
-//       #img{
-//
-//     }
-//       #projects{
+//     .col-1{
+//       width: 8.66%;
 //
 //       }
+//       .col-2{
+//       width: 16.66%;
+//       }
+//     }
 //
-//   }
+// // // tablet to desktop //
+//   @media (min-width : 600px) and (max-width : 840px){
+//     .col-1{
+//       min-width: 100%;
+//       max-width: 8.33%;
+//       }
+//       .col-2{
+//         min-width: 100%;
+//         max-width: 16.66%;
+//       }
+//     }
+//
+// // // phone to tablet //
+//   @media(max-width: 599px){
+//     .col-1{
+//       width: 100%;
+//
+//       }
+//       .col-2{
+//         width: 100%;
+//
+//       }
+//     }
+//
+// // // phone to tablet//
+//   @media(max-width: 475px){
+//     .col-1{
+//       width: 100%;
+//
+//       }
+//       .col-2{
+//         width: 100%;
+//
+//       }
+//     }
+//
 //
 
-
+//
 // @media (min-width: 320px) and (max-width: 749px) {
-//   nav {
+//   .col-1{
 //     width: 40%;
 //
 //   }
 // }
 //
 // @media (min-width: 750px) and (max-width: 1329px) {
-//   nav{
+//   .col-1{
 //     width: 45%;
 //
 //   }
 // }
 //
 // @media (min-width: 1330px) {
-//   nav{
+//   .col-1{
 //     width: 50%;
 //
 //
 //   }
 // }
-
-
-
+//
+//
+//
 @media (min-width: 320px) and (max-width: 749px) {
-  #img {
-    width: 30%;
+  .col-1 {
+    width: 100%;
 
   }
-  #projects{
-    width: 30%;
+  .col-2{
+    width: 100%;
 
   }
 }
 
 @media (min-width: 750px) and (max-width: 1329px) {
-#img{
-    width: 50%;
+.col-1{
+    width: 100%;
 
   }
-  #projects{
-    width: 50% auto;
+  .col-2{
+    width: 100%;
 
   }
 }
 
 @media (min-width: 1330px) {
-  #img {
-    width: 60%;
+  .col-1 {
+    width: 8.66%;
 
   }
-  #projects{
-    width: 60%;
+  .col-2{
+    width: 16.66%;
 
   }
 
@@ -722,138 +720,24 @@ span{
 
 .grid-pad {
 	padding-top: 0px;
-	padding-left: 50px; /* grid-space to left */
+	// padding-left: 50px; /* grid-space to left */
 	padding-right: 0; /* grid-space to right: (grid-space-left - column-space) e.g. 20px-20px=0 */
 }
 
-.push-right {
-	float: right;
-}
+// .push-right {
+// 	float: right;
+// }
 
 /* Content Columns */
 
 .col-1-1 {
-	width: 100%;
-}
-.col-2-3, .col-8-12 {
-	width: 66.66%;
+	width: 8.33%;
 }
 
 .col-1-2, .col-6-12 {
-	width: 50%;
+	width: 16.66%;
 }
 
-.col-1-3, .col-4-12 {
-	width: 33.33%;
-}
-
-.col-1-4, .col-3-12 {
-	width: 25%;
-}
-
-.col-1-5 {
-	width: 20%;
-}
-
-.col-1-6, .col-2-12 {
-	width: 16.667%;
-}
-
-.col-1-7 {
-	width: 14.28%;
-}
-
-.col-1-8 {
-	width: 12.5%;
-}
-
-.col-1-9 {
-	width: 11.1%;
-}
-
-.col-1-10 {
-	width: 10%;
-}
-
-.col-1-11 {
-	width: 9.09%;
-}
-
-.col-1-12 {
-	width: 8.33%
-}
-
-/*Layout Columns */
-
-.col-11-12 {
-	width: 91.66%
-}
-
-.col-10-12 {
-	width: 83.333%;
-}
-
-.col-9-12 {
-	width: 75%;
-}
-
-.col-5-12 {
-	width: 41.66%;
-}
-
-.col-7-12 {
-	width: 58.33%
-}
-
-/* Pushing blocks */
-
-.push-2-3, .push-8-12 {
-	margin-left: 66.66%;
-}
-
-.push-1-2, .push-6-12 {
-	margin-left: 50%;
-}
-
-.push-1-3, .push-4-12 {
-	margin-left: 33.33%;
-}
-
-.push-1-4, .push-3-12 {
-	margin-left: 25%;
-}
-
-.push-1-5 {
-	margin-left: 20%;
-}
-
-.push-1-6, .push-2-12 {
-	margin-left: 16.667%;
-}
-
-.push-1-7 {
-	margin-left: 14.28%;
-}
-
-.push-1-8 {
-	margin-left: 12.5%;
-}
-
-.push-1-9 {
-	margin-left: 11.1%;
-}
-
-.push-1-10 {
-	margin-left: 10%;
-}
-
-.push-1-11 {
-	margin-left: 9.09%;
-}
-
-.push-1-12 {
-	margin-left: 8.33%
-}
 
 @media handheld, only screen and (max-width: 767px) {
 	.grid {
@@ -890,75 +774,11 @@ span{
 	.mobile-col-1-1 {
 		width: 100%;
 	}
-	.mobile-col-2-3, .mobile-col-8-12 {
-		width: 66.66%;
-	}
 
 	.mobile-col-1-2, .mobile-col-6-12 {
-		width: 50%;
+		width: 100%;
 	}
 
-	.mobile-col-1-3, .mobile-col-4-12 {
-		width: 33.33%;
-	}
-
-	.mobile-col-1-4, .mobile-col-3-12 {
-		width: 25%;
-	}
-
-	.mobile-col-1-5 {
-		width: 20%;
-	}
-
-	.mobile-col-1-6, .mobile-col-2-12 {
-		width: 16.667%;
-	}
-
-	.mobile-col-1-7 {
-		width: 14.28%;
-	}
-
-	.mobile-col-1-8 {
-		width: 12.5%;
-	}
-
-	.mobile-col-1-9 {
-		width: 11.1%;
-	}
-
-	.mobile-col-1-10 {
-		width: 10%;
-	}
-
-	.mobile-col-1-11 {
-		width: 9.09%;
-	}
-
-	.mobile-col-1-12 {
-		width: 8.33%
-	}
-
-	/* Layout Columns */
-
-	.mobile-col-11-12 {
-		width: 91.66%
-	}
-
-	.mobile-col-10-12 {
-		width: 83.333%;
-	}
-
-	.mobile-col-9-12 {
-		width: 75%;
-	}
-
-	.mobile-col-5-12 {
-		width: 41.66%;
-	}
-
-	.mobile-col-7-12 {
-		width: 58.33%
-	}
 
 	.hide-on-mobile {
 		display: none !important;
