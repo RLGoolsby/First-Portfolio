@@ -173,35 +173,35 @@ span {
     font-weight: bolder;
     border-bottom: 3px solid black;
     margin-bottom: 0.8em;
-    margin-top: 19%;
+    margin-top: 6%;
     display: block;
     color: black;
     padding-bottom: 0.4em; }
   #projects .ready {
     margin-top: 18px;
-    margin-left: 10px;
-    margin-right: 1em;
+    margin-left: 2.5em;
+    margin-right: 3em;
     width: 85%;
     border-radius: 6px;
     cursor: pointer; }
   #projects .respon {
     margin-top: 18px;
-    margin-left: 10px;
-    margin-right: 1em;
+    margin-left: 2.5em;
+    margin-right: 3em;
     width: 85%;
     border-radius: 6px;
     cursor: pointer; }
   #projects .accord {
     margin-top: 18px;
-    margin-left: 10px;
-    margin-right: 1em;
+    margin-left: 2.5em;
+    margin-right: 3em;
     width: 85%;
     border-radius: 6px;
     cursor: pointer; }
   #projects .chatti {
     margin-top: 18px;
-    margin-left: 10px;
-    margin-right: 1em;
+    margin-left: 2.5em;
+    margin-right: 3em;
     width: 85%;
     border-radius: 6px;
     cursor: pointer; }
