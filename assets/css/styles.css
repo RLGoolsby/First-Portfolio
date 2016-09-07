@@ -3,36 +3,37 @@ body {
   background-color: lightcyan; }
 
 /*******    HOME PAGE  *********/
-nav {
-  position: fixed;
-  top: 0;
-  left: 1.5%; }
-  nav .my-name {
-    font-family: "Open Sans Condensed", Verdana, sans-serif;
-    margin-top: 0.2em;
-    text-align: left;
-    font-size: 5em; }
-  nav .fa.fa-leaf {
-    text-align: left;
-    color: #00D4D4;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-    padding-right: 0.5em; }
-  nav .title {
-    font-family: "Open Sans Condensed", Verdana, sans-serif;
-    text-align: left;
-    font-size: 2.2em; }
-  nav .email {
-    font-size: 20px;
-    color: black; }
+#mainpage {
+  width: 100%;
+  top: 0; }
+
+.header {
+  border: 2px solid black; }
+
+.my-name {
+  display: inline-block;
+  font-family: "Open Sans Condensed", Verdana, sans-serif;
+  margin-top: 0.2em;
+  text-align: left;
+  font-size: 5em; }
+
+.fa.fa-leaf {
+  text-align: left;
+  color: #00D4D4;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding-right: 0.5em; }
+
+.title {
+  font-family: "Open Sans Condensed", Verdana, sans-serif;
+  text-align: left;
+  font-size: 2.2em; }
+
+.email {
+  font-size: 20px;
+  color: black; }
 
 /****  on the left-side of home page *****/
-.links {
-  font-size: 2em;
-  font-weight: bolder;
-  margin-left: 1em;
-  font-family: "Open Sans Condensed", Verdana, sans-serif; }
-
 .one {
   margin-top: 0.6em; }
 
@@ -42,10 +43,23 @@ nav {
 .three {
   margin-left: 4em; }
 
+.links {
+  font-size: 2em;
+  font-weight: bolder;
+  margin-left: 1em;
+  font-family: "Open Sans Condensed", Verdana, sans-serif; }
+
 .projects {
   margin-right: 6em;
   padding-bottom: 0.3em; }
   .projects:hover {
+    color: #fff;
+    cursor: pointer;
+    -webkit-filter: drop-shadow(7px 7px 10px #043630); }
+
+.about {
+  margin-left: 9em; }
+  .about:hover {
     color: #fff;
     cursor: pointer;
     -webkit-filter: drop-shadow(7px 7px 10px #043630); }
@@ -84,12 +98,18 @@ i {
   .fa.fa-envelope:hover {
     color: #fff; }
 
+.hrefaddress {
+  display: inline-block;
+  float: right;
+  margin-top: 1.5em;
+  margin-right: 3.5em;
+  font-size: 2em; }
+
 /*******  img.html *********/
 #img {
   position: absolute;
-  background-color: lightcyan;
-  top: 3%;
-  margin-left: 55%;
+  background-color: cyan;
+  top: 0.1%;
   border-radius: 5px; }
   #img h1 {
     font-size: 5em;
@@ -128,8 +148,8 @@ span {
 /***********  projects.html  **********************/
 #projects {
   position: absolute;
+  top: 0.1%;
   background-color: #79F7EF;
-  margin-left: 55%;
   border-radius: 5px; }
   #projects .fa.fa-backward {
     padding-top: 0.8em;
@@ -294,112 +314,12 @@ span {
       color: #fff; }
 
 /***************** end of projects.html **************/
-@media (min-width: 320px) and (max-width: 749px) {
-  .col-1 {
-    width: 100%; }
-
-  .col-2 {
-    width: 100%; } }
-@media (min-width: 750px) and (max-width: 1329px) {
-  .col-1 {
-    width: 100%; }
-
-  .col-2 {
-    width: 100%; } }
-@media (min-width: 1330px) {
-  .col-1 {
-    width: 8.66%; }
-
-  .col-2 {
-    width: 16.66%; } }
 /*
   Simple Grid
   Project Page - http://thisisdallas.github.com/Simple-Grid/
   Author - Dallas Bass
   Site - http://dallasbass.com
 */
-[class*='grid'],
-[class*='col-'],
-[class*='mobile-'],
-.grid:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-
-[class*='col-'] {
-  float: left;
-  min-height: 1px;
-  padding-right: 20px;
-  /* column-space */ }
-
-[class*='col-'] [class*='col-']:last-child {
-  padding-right: 0; }
-
-.grid {
-  width: 100%;
-  max-width: 1330px;
-  min-width: 320px;
-  /* when using padded grid on ipad in portrait mode, width should be viewport-width - padding = (768 - 20) = 748. actually, it should be even smaller to allow for padding of grid containing element */
-  margin: 0 auto;
-  overflow: hidden; }
-
-.grid:after {
-  content: "";
-  display: table;
-  clear: both; }
-
-.grid-pad {
-  padding-top: 0px;
-  padding-right: 0;
-  /* grid-space to right: (grid-space-left - column-space) e.g. 20px-20px=0 */ }
-
 /* Content Columns */
-.col-1-1 {
-  width: 8.33%; }
-
-.col-1-2, .col-6-12 {
-  width: 16.66%; }
-
-@media handheld, only screen and (max-width: 767px) {
-  .grid {
-    width: 100%;
-    min-width: 0;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 20px;
-    /* grid-space to left */
-    padding-right: 10px;
-    /* grid-space to right: (grid-space-left - column-space) e.g. 20px-10px=10px */ }
-
-  [class*='col-'] {
-    width: auto;
-    float: none;
-    margin: 10px 0;
-    padding-left: 0;
-    padding-right: 10px;
-    /* column-space */ }
-
-  [class*='col-'] [class*='col-'] {
-    padding-right: 0; }
-
-  /* Mobile Layout */
-  [class*='mobile-col-'] {
-    float: left;
-    margin: 0 0 10px;
-    padding-left: 0;
-    padding-right: 10px;
-    /* column-space */
-    padding-bottom: 0; }
-
-  .mobile-col-1-1 {
-    width: 100%; }
-
-  .mobile-col-1-2, .mobile-col-6-12 {
-    width: 100%; }
-
-  .hide-on-mobile {
-    display: none !important;
-    width: 0;
-    height: 0; } }
 
 /*# sourceMappingURL=styles.css.map */

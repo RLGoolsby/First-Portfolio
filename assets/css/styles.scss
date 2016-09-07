@@ -18,15 +18,22 @@ body{
 // }
 
 
-nav{
-  position: fixed;
+#mainpage{
+
+  width: 100%;
+  // position: fixed;
 
   // width: 26%;
   top: 0;
-  left: 1.5%;
+  // left: 1.5%;
   // margin-bottom: 10%;
+}
+  .header{
+    border: 2px solid black;
+  }
 
   .my-name{
+    display: inline-block;
     font-family: $ffamily;
     margin-top: 0.2em;
     // margin-bottom: 0.3em;
@@ -36,8 +43,6 @@ nav{
     // margin-left: 0.2em;
     font-size: 5em;
   }
-  // .left-side-icons{
-  //   text-align: center;
 
   .fa.fa-leaf{
     text-align: left;
@@ -64,16 +69,10 @@ nav{
     font-size: 20px;
     color: black;
   }
-}
+
 /****  on the left-side of home page *****/
 
-.links{
-  font-size: 2em;
-  font-weight: bolder;
-  margin-left: 1em;
-  // margin-bottom: 0.5em;
-  font-family: $ffamily;
-}
+
 .one{
   margin-top: 0.6em;
 }
@@ -86,6 +85,14 @@ nav{
   margin-left: 4em;
 }
 
+.links{
+  font-size: 2em;
+  font-weight: bolder;
+  margin-left: 1em;
+  // margin-bottom: 0.5em;
+  font-family: $ffamily;
+}
+
 .projects{
   margin-right: 6em;
   padding-bottom: 0.3em;
@@ -93,13 +100,24 @@ nav{
   // padding-top: 1.5%;
   // border: 1px solid black;
   // border-radius: 9px;
-
   &:hover{
     color: #fff;
     cursor: pointer;
     -webkit-filter: drop-shadow(7px 7px 10px #043630);
   }
 }
+  .about{
+    margin-left: 9em;
+    // padding-top: 0.5em;
+
+    &:hover{
+      color: #fff;
+      cursor: pointer;
+      -webkit-filter: drop-shadow(7px 7px 10px #043630);
+    }
+
+}
+
 
 a{
   text-decoration: none;
@@ -175,6 +193,12 @@ i{
   }
 
 .hrefaddress{
+  display: inline-block;
+  float: right;
+  margin-top: 1.5em;
+  margin-right: 3.5em;
+  font-size: 2em;
+  // display: block;
   // margin-right: 3em;
 }
 
@@ -185,10 +209,10 @@ i{
 
 #img{
   position: absolute;
-  background-color: lightcyan;
-  top: 3%;
+  background-color: cyan;
+  top: 0.1%;
   // padding-top: 5em;
-  margin-left: 55%;
+  // margin-left: 55%;
   border-radius: 5px;
   // height: 77em;
 
@@ -251,11 +275,12 @@ span{
 
 #projects{
   position: absolute;
+  top: 0.1%;
   // background-color:#2AC9D1;
   // background-color: lightcyan;
   background-color: #79F7EF;
   // border-bottom: 10px solid black;
-  margin-left: 55%;
+  // margin-left: 55%;
   border-radius: 5px;
   .fa.fa-backward{
   padding-top: 0.8em;
@@ -642,40 +667,40 @@ span{
 //
 //
 //
-@media (min-width: 320px) and (max-width: 749px) {
-  .col-1 {
-    width: 100%;
-
-  }
-  .col-2{
-    width: 100%;
-
-  }
-}
-
-@media (min-width: 750px) and (max-width: 1329px) {
-.col-1{
-    width: 100%;
-
-  }
-  .col-2{
-    width: 100%;
-
-  }
-}
-
-@media (min-width: 1330px) {
-  .col-1 {
-    width: 8.66%;
-
-  }
-  .col-2{
-    width: 16.66%;
-
-  }
-
-}
-
+// @media (min-width: 320px) and (max-width: 749px) {
+//   .col-1 {
+//     width: 100%;
+//
+//   }
+//   .col-2{
+//     width: 100%;
+//
+//   }
+// }
+//
+// @media (min-width: 750px) and (max-width: 1329px) {
+// .col-1{
+//     width: 100%;
+//
+//   }
+//   .col-2{
+//     width: 100%;
+//
+//   }
+// }
+//
+// @media (min-width: 1330px) {
+//   .col-1 {
+//     width: 8.66%;
+//
+//   }
+//   .col-2{
+//     width: 16.66%;
+//
+//   }
+//
+// }
+//
 
 /*
   Simple Grid
@@ -685,44 +710,44 @@ span{
 */
 
 
-[class*='grid'],
-[class*='col-'],
-[class*='mobile-'],
-.grid:after {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-[class*='col-'] {
-	float: left;
-  	min-height: 1px;
-	padding-right: 20px; /* column-space */
-}
-
-[class*='col-'] [class*='col-']:last-child {
-	padding-right: 0;
-}
-
-.grid {
-	width: 100%;
-	max-width: 1330px;
-	min-width: 320px; /* when using padded grid on ipad in portrait mode, width should be viewport-width - padding = (768 - 20) = 748. actually, it should be even smaller to allow for padding of grid containing element */
-	margin: 0 auto;
-	overflow: hidden;
-}
-
-.grid:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
-.grid-pad {
-	padding-top: 0px;
-	// padding-left: 50px; /* grid-space to left */
-	padding-right: 0; /* grid-space to right: (grid-space-left - column-space) e.g. 20px-20px=0 */
-}
+// [class*='grid'],
+// [class*='col-'],
+// [class*='mobile-'],
+// .grid:after {
+// 	-webkit-box-sizing: border-box;
+// 	-moz-box-sizing: border-box;
+// 	box-sizing: border-box;
+// }
+//
+// [class*='col-'] {
+// 	float: left;
+//   	min-height: 1px;
+// 	padding-right: 20px; /* column-space */
+// }
+//
+// [class*='col-'] [class*='col-']:last-child {
+// 	padding-right: 0;
+// }
+//
+// .grid {
+// 	width: 100%;
+// 	max-width: 1330px;
+// 	min-width: 320px; /* when using padded grid on ipad in portrait mode, width should be viewport-width - padding = (768 - 20) = 748. actually, it should be even smaller to allow for padding of grid containing element */
+// 	margin: 0 auto;
+// 	overflow: hidden;
+// }
+//
+// .grid:after {
+// 	content: "";
+// 	display: table;
+// 	clear: both;
+// }
+//
+// .grid-pad {
+// 	padding-top: 0px;
+// 	// padding-left: 50px; /* grid-space to left */
+// 	padding-right: 0; /* grid-space to right: (grid-space-left - column-space) e.g. 20px-20px=0 */
+// }
 
 // .push-right {
 // 	float: right;
@@ -730,59 +755,59 @@ span{
 
 /* Content Columns */
 
-.col-1-1 {
-	width: 8.33%;
-}
-
-.col-1-2, .col-6-12 {
-	width: 16.66%;
-}
-
-
-@media handheld, only screen and (max-width: 767px) {
-	.grid {
-		width: 100%;
-		min-width: 0;
-		margin-left: 0;
-		margin-right: 0;
-		padding-left: 20px; /* grid-space to left */
-		padding-right: 10px; /* grid-space to right: (grid-space-left - column-space) e.g. 20px-10px=10px */
-	}
-
-	[class*='col-'] {
-		width: auto;
-		float: none;
-		margin: 10px 0;
-		padding-left: 0;
-		padding-right: 10px; /* column-space */
-	}
-
-	[class*='col-'] [class*='col-'] {
-		padding-right: 0;
-	}
-
-	/* Mobile Layout */
-
-	[class*='mobile-col-'] {
-		float: left;
-		margin: 0 0 10px;
-		padding-left: 0;
-		padding-right: 10px; /* column-space */
-		padding-bottom: 0;
-	}
-
-	.mobile-col-1-1 {
-		width: 100%;
-	}
-
-	.mobile-col-1-2, .mobile-col-6-12 {
-		width: 100%;
-	}
-
-
-	.hide-on-mobile {
-		display: none !important;
-		width: 0;
-		height: 0;
-	}
-}
+// .col-1-1 {
+// 	width: 8.33%;
+// }
+//
+// .col-1-2, .col-6-12 {
+// 	width: 16.66%;
+// }
+//
+//
+// @media handheld, only screen and (max-width: 767px) {
+// 	.grid {
+// 		width: 100%;
+// 		min-width: 0;
+// 		margin-left: 0;
+// 		margin-right: 0;
+// 		padding-left: 20px; /* grid-space to left */
+// 		padding-right: 10px; /* grid-space to right: (grid-space-left - column-space) e.g. 20px-10px=10px */
+// 	}
+//
+// 	[class*='col-'] {
+// 		width: auto;
+// 		float: none;
+// 		margin: 10px 0;
+// 		padding-left: 0;
+// 		padding-right: 10px; /* column-space */
+// 	}
+//
+// 	[class*='col-'] [class*='col-'] {
+// 		padding-right: 0;
+// 	}
+//
+// 	/* Mobile Layout */
+//
+// 	[class*='mobile-col-'] {
+// 		float: left;
+// 		margin: 0 0 10px;
+// 		padding-left: 0;
+// 		padding-right: 10px; /* column-space */
+// 		padding-bottom: 0;
+// 	}
+//
+// 	.mobile-col-1-1 {
+// 		width: 100%;
+// 	}
+//
+// 	.mobile-col-1-2, .mobile-col-6-12 {
+// 		width: 100%;
+// 	}
+//
+//
+// 	.hide-on-mobile {
+// 		display: none !important;
+// 		width: 0;
+// 		height: 0;
+// 	}
+// }
