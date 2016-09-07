@@ -8,6 +8,11 @@ body {
   top: 0; }
 
 .header {
+  border-bottom: 14px;
+  border-right: 14px;
+  border-color: #00D4D4;
+  border-bottom-style: outset;
+  border-right-style: outset;
   padding-bottom: 1em;
   background-color: #00D4D4; }
 
