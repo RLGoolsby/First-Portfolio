@@ -10,9 +10,13 @@ body {
 .header {
   border-bottom: 14px;
   border-right: 14px;
+  border-left: 4px;
+  border-top: 4px;
   border-color: #00D4D4;
   border-bottom-style: outset;
   border-right-style: outset;
+  border-left-style: outset;
+  border-top-style: outset;
   padding-bottom: 1em;
   background-color: #00D4D4; }
 
@@ -123,7 +127,7 @@ i {
   background-color: #00D4D4;
   top: 0.1%;
   border-radius: 5px;
-  height: 38em; }
+  height: 69.3em; }
   #img h1 {
     font-size: 5em;
     color: #E3E3E3;
@@ -140,7 +144,7 @@ span {
 .paragraph {
   display: block;
   font-family: "Lato", Verdana, sans-serif;
-  font-size: 1.5em;
+  font-size: 2em;
   color: black;
   margin-top: 1.5em;
   margin-left: 0.9em;
@@ -151,12 +155,11 @@ span {
 .me {
   margin-top: -1em;
   margin-left: 3em;
-  margin-bottom: 1em;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   border-radius: 50%;
-  width: 260px;
-  height: 261px; }
+  width: 250px;
+  height: 300px; }
 
 /************  END OF img.html *******************/
 /***********  projects.html  **********************/
@@ -170,8 +173,7 @@ span {
     padding-bottom: 0.8em; }
   #projects ul {
     width: 85%;
-    margin-left: 3em;
-    margin-right: 1em; }
+    margin-left: 6em; }
   #projects li {
     font-size: 40px;
     font-family: "Open Sans Condensed", Verdana, sans-serif;
