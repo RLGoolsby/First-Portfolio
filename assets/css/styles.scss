@@ -627,9 +627,6 @@ span{
   and (-webkit-min-device-pixel-ratio: 1.331)
   and (-webkit-max-device-pixel-ratio: 1.332)
   and (orientation: landscape) {
-    .paragraph{
-      font-size: 2em;
-    }
 }
 
 /* ----------- iPhone 6+ ----------- */
@@ -641,6 +638,8 @@ span{
   and (orientation: portrait) {
     .paragraph{
       font-size: 2.7em;
+      margin-left: 10em;
+      margin-right: 0.6em;
     }
 }
 
@@ -650,9 +649,7 @@ span{
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) {
-    .paragraph{
-      font-size: 2.2em;
-    }
+
 }
 
 
@@ -666,6 +663,8 @@ span{
   and (orientation: portrait) {
     .paragraph{
       font-size: 2.7em;
+      margin-left: 10em;
+      margin-right: 0.6em;
     }
 
 }
@@ -676,9 +675,7 @@ span{
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    .paragraph{
-      font-size: 2.2em;
-    }
+
 }
 /* ----------- Galaxy S3 ----------- */
 
@@ -690,6 +687,8 @@ span{
   and (orientation: portrait) {
     .paragraph{
       font-size: 2.7em;
+      margin-left: 10em;
+      margin-right: 0.6em;
     }
 }
 
@@ -699,9 +698,7 @@ span{
   and (device-height: 640px)
   and (-webkit-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    .paragraph{
-      font-size: 2.2em;
-    }
+
 }
 
 
@@ -715,6 +712,8 @@ span{
   and (orientation: portrait) {
     .paragraph{
       font-size: 2.7em;
+      margin-left: 10em;
+      margin-right: 0.6em;
     }
 }
 
@@ -724,9 +723,7 @@ span{
   and (device-height: 640px)
   and (-webkit-device-pixel-ratio: 3)
   and (orientation: landscape) {
-    .paragraph{
-      font-size: 2.2em;
-    }
+
 }
 
 /* ----------- Galaxy S5 ----------- */
@@ -739,6 +736,8 @@ span{
   and (orientation: portrait) {
     .paragraph{
       font-size: 2.7em;
+      margin-left: 10em;
+      margin-right: 0.6em;
     }
 }
 
@@ -748,9 +747,6 @@ span{
   and (device-height: 640px)
   and (-webkit-device-pixel-ratio: 3)
   and (orientation: landscape) {
-    .paragraph{
-      font-size: 2.2em;
-    }
 }
 
 
@@ -764,6 +760,8 @@ span{
   and (orientation: portrait) {
     .paragraph{
       font-size: 2.7em;
+      margin-left: 10em;
+      margin-right: 0.6em;
     }
 }
 
@@ -773,9 +771,6 @@ span{
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    .paragraph{
-      font-size: 2.2em;
-    }
 
 }
 
@@ -790,6 +785,8 @@ span{
   and (orientation: portrait) {
     .paragraph{
       font-size: 2.7em;
+      margin-left: 10em;
+      margin-right: 0.6em;
     }
 
 }
@@ -800,9 +797,6 @@ span{
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    .paragraph{
-      font-size: 2.2em;
-    }
 
 }
 
