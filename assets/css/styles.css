@@ -9,10 +9,10 @@ body {
 
 .header {
   border-bottom: 14px;
-  border-right: 14px;
+  border-right: 8px;
   border-left: 4px;
   border-top: 4px;
-  border-color: #00D4D4;
+  border-color: lightgrey;
   border-bottom-style: outset;
   border-right-style: outset;
   border-left-style: outset;
@@ -26,7 +26,7 @@ body {
   margin-top: 0.3em;
   margin-left: 0.2em;
   text-align: left;
-  font-size: 5em; }
+  font-size: 6em; }
 
 .fa.fa-leaf {
   text-align: left;
@@ -118,7 +118,7 @@ i {
   display: inline-block;
   float: right;
   margin-top: 1.5em;
-  margin-right: 6em;
+  margin-right: 2em;
   font-size: 2em; }
 
 /*******  img.html *********/
