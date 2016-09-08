@@ -636,10 +636,11 @@ span{
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) {
+
     .paragraph{
       font-size: 2.7em;
       margin-left: 10em;
-      margin-right: 0.6em;
+      margin-right: 0.9em;
     }
 }
 
@@ -661,10 +662,14 @@ span{
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+    #mainpage{
+      width: 125%;
+
+    }
     .paragraph{
       font-size: 2.7em;
       margin-left: 10em;
-      margin-right: 0.6em;
+      margin-right: 0.9em;
     }
 
 }
@@ -685,10 +690,14 @@ span{
   and (device-height: 640px)
   and (-webkit-device-pixel-ratio: 2)
   and (orientation: portrait) {
+    #mainpage{
+      width: 100%;
+
+    }
     .paragraph{
       font-size: 2.7em;
       margin-left: 10em;
-      margin-right: 0.6em;
+      margin-right: 0.9em;
     }
 }
 
@@ -710,10 +719,14 @@ span{
   and (device-height: 640px)
   and (-webkit-device-pixel-ratio: 3)
   and (orientation: portrait) {
+    #mainpage{
+      width: 100%;
+
+    }
     .paragraph{
       font-size: 2.7em;
       margin-left: 10em;
-      margin-right: 0.6em;
+      margin-right: 0.9em;
     }
 }
 
@@ -734,10 +747,14 @@ span{
   and (device-height: 640px)
   and (-webkit-device-pixel-ratio: 3)
   and (orientation: portrait) {
+    #mainpage{
+      width: 100%;
+
+    }
     .paragraph{
       font-size: 2.7em;
       margin-left: 10em;
-      margin-right: 0.6em;
+      margin-right: 0.9em;
     }
 }
 
@@ -758,10 +775,14 @@ span{
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+    #mainpage{
+      width: 100%;
+
+    }
     .paragraph{
       font-size: 2.7em;
       margin-left: 10em;
-      margin-right: 0.6em;
+      margin-right: 0.9em;
     }
 }
 
@@ -783,10 +804,14 @@ span{
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+    #mainpage{
+      width: 100%;
+
+    }
     .paragraph{
       font-size: 2.7em;
       margin-left: 10em;
-      margin-right: 0.6em;
+      margin-right: 0.9em;
     }
 
 }
