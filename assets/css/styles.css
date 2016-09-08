@@ -365,66 +365,84 @@ span {
     margin-left: 10em;
     margin-right: 0.9em; } }
 /* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .paragraph {
+    font-size: 1.5em; } }
 /* ----------- Galaxy S3 ----------- */
 /* Portrait */
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
   #mainpage {
-    width: 115%;
-    margin: 1% auto; }
+    width: 100%;
+    margin: 2% auto; }
 
   .paragraph {
     font-size: 2.7em;
     margin-left: 10em;
     margin-right: 0.9em; } }
 /* Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
+  .paragraph {
+    font-size: 1.5em; } }
 /* ----------- Galaxy S4 ----------- */
 /* Portrait */
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
   #mainpage {
-    width: 115%;
-    margin: 1% auto; }
+    width: 100%;
+    margin: 2% auto; }
 
   .paragraph {
     font-size: 2.7em;
     margin-left: 10em;
     margin-right: 0.9em; } }
 /* Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+  .paragraph {
+    font-size: 1.5em; } }
 /* ----------- Galaxy S5 ----------- */
 /* Portrait */
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
   #mainpage {
-    width: 115%;
-    margin: 1% auto; }
+    width: 100%;
+    margin: 2% auto; }
 
   .paragraph {
     font-size: 2.7em;
     margin-left: 10em;
     margin-right: 0.9em; } }
 /* Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+  .paragraph {
+    font-size: 1.5em; } }
 /* ----------- iPhone 5 and 5S ----------- */
 /* Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   #mainpage {
-    width: 115%;
-    margin: 1% auto; }
+    width: 100%;
+    margin: 2% auto; }
 
   .paragraph {
     font-size: 2.7em;
     margin-left: 10em;
     margin-right: 0.9em; } }
 /* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .paragraph {
+    font-size: 1.5em; } }
 /* ----------- iPhone 4 and 4S ----------- */
 /* Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   #mainpage {
-    width: 115%;
-    margin: 1% auto; }
+    width: 100%;
+    margin: 2% auto; }
 
   .paragraph {
     font-size: 2.7em;
     margin-left: 10em;
     margin-right: 0.9em; } }
 /* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .paragraph {
+    font-size: 1.5em; } }
 /*
   Simple Grid
   Project Page - http://thisisdallas.github.com/Simple-Grid/

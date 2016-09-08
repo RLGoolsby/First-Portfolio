@@ -681,6 +681,9 @@ span{
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
+    .paragraph{
+      font-size: 1.5em;
+    }
 
 }
 /* ----------- Galaxy S3 ----------- */
@@ -692,8 +695,8 @@ span{
   and (-webkit-device-pixel-ratio: 2)
   and (orientation: portrait) {
     #mainpage{
-      width: 115%;
-      margin: 1% auto;
+      width: 100%;
+      margin: 2% auto;
     }
     .paragraph{
       font-size: 2.7em;
@@ -708,6 +711,9 @@ span{
   and (device-height: 640px)
   and (-webkit-device-pixel-ratio: 2)
   and (orientation: landscape) {
+    .paragraph{
+      font-size: 1.5em;
+    }
 
 }
 
@@ -721,8 +727,8 @@ span{
   and (-webkit-device-pixel-ratio: 3)
   and (orientation: portrait) {
     #mainpage{
-      width: 115%;
-      margin: 1% auto;
+      width: 100%;
+      margin: 2% auto;
     }
     .paragraph{
       font-size: 2.7em;
@@ -737,6 +743,9 @@ span{
   and (device-height: 640px)
   and (-webkit-device-pixel-ratio: 3)
   and (orientation: landscape) {
+    .paragraph{
+      font-size: 1.5em;
+    }
 
 }
 
@@ -749,8 +758,8 @@ span{
   and (-webkit-device-pixel-ratio: 3)
   and (orientation: portrait) {
     #mainpage{
-      width: 115%;
-      margin: 1% auto;
+      width: 100%;
+      margin: 2% auto;
 
     }
     .paragraph{
@@ -766,6 +775,9 @@ span{
   and (device-height: 640px)
   and (-webkit-device-pixel-ratio: 3)
   and (orientation: landscape) {
+    .paragraph{
+      font-size: 1.5em;
+    }
 }
 
 
@@ -778,8 +790,8 @@ span{
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     #mainpage{
-      width: 115%;
-      margin: 1% auto;
+      width: 100%;
+      margin: 2% auto;
 
     }
     .paragraph{
@@ -795,6 +807,9 @@ span{
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
+    .paragraph{
+      font-size: 1.5em;
+    }
 
 }
 
@@ -808,8 +823,8 @@ span{
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     #mainpage{
-      width: 115%;
-      margin: 1% auto;
+      width: 100%;
+      margin: 2% auto;
     }
     .paragraph{
       font-size: 2.7em;
@@ -825,7 +840,9 @@ span{
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-
+    .paragraph{
+      font-size: 1.5em;
+    }
 }
 
 
