@@ -615,9 +615,7 @@ span{
   and (-webkit-min-device-pixel-ratio: 1.331)
   and (-webkit-max-device-pixel-ratio: 1.332)
   and (orientation: portrait) {
-    .paragraph{
-      font-size: 2.1em;
-    }
+
 }
 
 /* Landscape */
@@ -637,11 +635,9 @@ span{
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) {
 
-    .paragraph{
-      font-size: 2.7em;
-      margin-left: 10em;
-      margin-right: 0.9em;
-    }
+    // .paragraph{
+    //   font-size: 2.7em;
+    // }
 }
 
 /* Landscape */
@@ -663,15 +659,14 @@ span{
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     #mainpage{
-      width: 115%;
+      width: 100%;
       margin: 1% auto;
 
     }
-    .paragraph{
-      font-size: 2.7em;
-      margin-left: 10em;
-      margin-right: 0.9em;
-    }
+    // .paragraph{
+    //   font-size: 2.7em;
+    //
+    // }
 
 }
 
@@ -681,7 +676,7 @@ span{
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    
+
 
 
 }
@@ -695,13 +690,12 @@ span{
   and (orientation: portrait) {
     #mainpage{
       width: 100%;
-      margin: 2% auto;
+      margin: 1% auto;
     }
-    .paragraph{
-      font-size: 2.7em;
-      margin-left: 10em;
-      margin-right: 0.9em;
-    }
+    // .paragraph{
+    //   font-size: 2.7em;
+    //
+    // }
 }
 
 /* Landscape */
@@ -725,12 +719,10 @@ span{
   and (orientation: portrait) {
     #mainpage{
       width: 100%;
-      margin: 2% auto;
+      margin: 1% auto;
     }
     .paragraph{
       font-size: 2.7em;
-      margin-left: 10em;
-      margin-right: 0.9em;
     }
 }
 
@@ -754,14 +746,13 @@ span{
   and (orientation: portrait) {
     #mainpage{
       width: 100%;
-      margin: 2% auto;
+      margin: 1% auto;
 
     }
-    .paragraph{
-      font-size: 2.7em;
-      margin-left: 10em;
-      margin-right: 0.9em;
-    }
+    // .paragraph{
+    //   font-size: 2.7em;
+    //
+    // }
 }
 
 /* Landscape */
@@ -784,14 +775,13 @@ span{
   and (orientation: portrait) {
     #mainpage{
       width: 100%;
-      margin: 2% auto;
+      margin: 1% auto;
 
     }
-    .paragraph{
-      font-size: 2.7em;
-      margin-left: 10em;
-      margin-right: 0.9em;
-    }
+    // .paragraph{
+    //   font-size: 2.7em;
+    //
+    // }
 }
 
 /* Landscape */
@@ -814,13 +804,12 @@ span{
   and (orientation: portrait) {
     #mainpage{
       width: 100%;
-      margin: 2% auto;
+      margin: 1% auto;
     }
-    .paragraph{
-      font-size: 2.7em;
-      margin-left: 10em;
-      margin-right: 0.9em;
-    }
+    // .paragraph{
+    //   font-size: 2.7em;
+    //
+    // }
 
 }
 
