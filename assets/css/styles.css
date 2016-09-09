@@ -36,7 +36,7 @@ body {
   padding-top: 0.5em;
   margin-left: 0.4em;
   text-align: left;
-  font-size: 3em; }
+  font-size: 3.5em; }
 
 .email {
   margin-left: 2em;
@@ -54,23 +54,38 @@ body {
   margin-left: 4em; }
 
 .links {
-  font-size: 2.2em;
+  font-size: 2.1em;
   font-weight: bolder;
   margin-left: 1em;
   font-family: "Open Sans Condensed", Verdana, sans-serif; }
 
 .projects {
+  border-left: 2px;
+  border-bottom: 5px;
+  border-bottom-style: outset;
+  border-left-style: outset;
+  border-radius: 5px;
+  font-size: 0.6em;
   margin-left: 3em;
-  padding-bottom: 0.3em; }
+  background-color: lightcyan; }
   .projects:hover {
-    color: #fff;
+    color: teal;
     cursor: pointer;
     -webkit-filter: drop-shadow(7px 7px 10px #043630); }
 
 .about {
-  margin-left: 4.4em; }
+  display: block;
+  border-left: 2px;
+  border-bottom: 5px;
+  border-bottom-style: outset;
+  border-left-style: outset;
+  border-radius: 5px;
+  font-size: 0.6em;
+  margin-top: 0.8em;
+  margin-left: 4em;
+  background-color: lightcyan; }
   .about:hover {
-    color: #fff;
+    color: teal;
     cursor: pointer;
     -webkit-filter: drop-shadow(7px 7px 10px #043630); }
 
@@ -349,10 +364,7 @@ span {
 
   #img {
     width: 100%;
-    margin: 1% auto; }
-
-  .paragraph {
-    font-size: 2.3em; } }
+    margin: 1% auto; } }
 /* Landscape */
 /* ----------- Galaxy S3 ----------- */
 /* Portrait */
@@ -363,10 +375,7 @@ span {
 
   #img {
     width: 100%;
-    margin: 1% auto; }
-
-  .paragraph {
-    font-size: 2.3em; } }
+    margin: 1% auto; } }
 /* Landscape */
 /* ----------- Galaxy S4 ----------- */
 /* Portrait */
@@ -377,10 +386,7 @@ span {
 
   #img {
     width: 100%;
-    margin: 1% auto; }
-
-  .paragraph {
-    font-size: 2.3em; } }
+    margin: 1% auto; } }
 /* Landscape */
 /* ----------- Galaxy S5 ----------- */
 /* Portrait */
@@ -391,10 +397,7 @@ span {
 
   #img {
     width: 100%;
-    margin: 1% auto; }
-
-  .paragraph {
-    font-size: 2.3em; } }
+    margin: 1% auto; } }
 /* Landscape */
 /* ----------- iPhone 5 and 5S ----------- */
 /* Portrait */
@@ -405,10 +408,7 @@ span {
 
   #img {
     width: 100%;
-    margin: 1% auto; }
-
-  .paragraph {
-    font-size: 2.3em; } }
+    margin: 1% auto; } }
 /* Landscape */
 /* ----------- iPhone 4 and 4S ----------- */
 /* Portrait */
@@ -419,10 +419,7 @@ span {
 
   #img {
     width: 100%;
-    margin: 1% auto; }
-
-  .paragraph {
-    font-size: 2.3em; } }
+    margin: 1% auto; } }
 /* Landscape */
 /*
   Simple Grid
