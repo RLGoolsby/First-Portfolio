@@ -67,6 +67,8 @@ body {
   border-radius: 5px;
   font-size: 0.6em;
   margin-left: 3em;
+  padding-bottom: 0.2em;
+  padding-top: 0.2em;
   background-color: lightcyan; }
   .projects:hover {
     color: teal;
@@ -83,6 +85,8 @@ body {
   font-size: 0.6em;
   margin-top: 0.8em;
   margin-left: 4em;
+  padding-bottom: 0.2em;
+  padding-top: 0.2em;
   background-color: lightcyan; }
   .about:hover {
     color: teal;
