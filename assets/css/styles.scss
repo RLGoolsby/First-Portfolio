@@ -2,8 +2,6 @@ $ffamily: "Open Sans Condensed", Verdana, sans-serif;
 
 body{
   width:100%;
-// background-color: #97ADAB;
-  // background-color:#EBF0F0;
   background-color: lightcyan;
 }
 
@@ -12,21 +10,11 @@ body{
 
 
 /*******    HOME PAGE  *********/
-// #mainpage {
-//   position: fixed;
-//   // width: 50%;
-// }
-
 
 #mainpage{
-
   width: 100%;
-  // position: fixed;
-
-  // width: 26%;
   top: 0;
-  // left: 1.5%;
-  // margin-bottom: 10%;
+
 }
   .header{
     border-bottom:  14px;
@@ -52,7 +40,6 @@ body{
     color: #00D4D4;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
-    // margin-left: 2em;
     padding-right: 0.5em;
 
     }
@@ -189,10 +176,10 @@ i{
   font-size: 2em;
 }
 
+/*-- END OF HOME PAGE --*/
 
 
-
-/*******  img.html *********/
+/*******  IMG VIEW *********/
 
 #img{
   position: absolute;
