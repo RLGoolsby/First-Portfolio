@@ -186,13 +186,15 @@ span {
 
 /** PHOTO/IMG **/
 .me {
+  display: block;
+  background-size: cover;
   float: right;
   margin-bottom: 2em;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   border-radius: 50%;
   width: 250px;
-  height: 261px; }
+  height: 250px; }
 
 /************  END OF BIO.HTML VIEW *******************/
 /***********  PROJECTS.HTML VIEW  **********************/
