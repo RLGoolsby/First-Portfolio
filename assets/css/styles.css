@@ -93,9 +93,8 @@ a {
 /** DECORATIVE LEAVES BELOW HEADER BANNER **/
 .fa.fa-leaf {
   text-align: left;
-  color: #00D4D4;
+  color: #55BAB6;
   margin-top: 1.2em;
-  margin-bottom: 0.4em;
   padding-left: 0.5em;
   padding-right: 1em; }
 
@@ -121,7 +120,7 @@ a {
   padding-top: 0.2em;
   background-color: lightcyan; }
   .projects:hover {
-    color: teal;
+    color: #55BAB6;
     cursor: pointer;
     -webkit-filter: drop-shadow(3px 3px 10px #043630); }
 
@@ -141,13 +140,13 @@ a {
   padding-top: 0.2em;
   background-color: lightcyan; }
   .about:hover {
-    color: teal;
+    color: #55BAB6;
     cursor: pointer;
     -webkit-filter: drop-shadow(7px 7px 14px #043630); }
 
 /**  LARGE DECORATIVE LEAVES **/
 .one {
-  margin-top: 0.6em; }
+  margin-top: 4em; }
 
 .two {
   margin-left: 7em; }
@@ -179,7 +178,6 @@ span {
   font-size: 2em;
   color: black;
   margin-top: 4em;
-  margin-left: 0.9em;
   margin-right: 0.5em;
   line-height: 1.5;
   letter-spacing: 2px; }
@@ -189,6 +187,7 @@ span {
   display: block;
   background-size: cover;
   float: right;
+  margin-top: 1.5em;
   margin-bottom: 2em;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -201,7 +200,7 @@ span {
 #projects {
   position: absolute;
   top: 0.1%;
-  background-color: #79F7EF;
+  background-color: lightcyan;
   border-radius: 5px;
   width: 100%;
   /*-- PROJECT IMAGE PLACEHOLDER --*/
@@ -219,12 +218,8 @@ span {
   /*-- PROJECT TOOLS --*/
   /*-- END OF PROJECT TOOLS --*/ }
   #projects .fa.fa-chevron-circle-left {
-    padding-top: 0.5em;
     padding-left: 0.3em;
     padding-bottom: 0.8em; }
-  #projects ul {
-    width: 85%;
-    margin-left: 4em; }
   #projects li {
     font-size: 42px;
     font-family: "Open Sans Condensed", Verdana, sans-serif;
@@ -266,7 +261,7 @@ span {
     font-family: "Lato", Verdana, sans-serif;
     margin-right: 2em;
     text-align: right;
-    background-color: #79F7EF;
+    background-color: lightcyan;
     font-weight: bold;
     font-size: 23px; }
   #projects .ghsite1 {
@@ -276,7 +271,7 @@ span {
     cursor: pointer;
     font-size: 21px;
     color: black;
-    background-color: #79F7EF;
+    background-color: lightcyan;
     margin-left: 1em;
     margin-bottom: 0.3em; }
     #projects .ghsite1:hover {
@@ -289,7 +284,7 @@ span {
     cursor: pointer;
     font-size: 21px;
     color: black;
-    background-color: #79F7EF;
+    background-color: lightcyan;
     margin-left: 1em;
     margin-bottom: 0.3em; }
     #projects .ghsite2:hover {
@@ -304,7 +299,7 @@ span {
     color: black;
     margin-left: 1em;
     margin-bottom: 0.3em;
-    background-color: #79F7EF; }
+    background-color: lightcyan; }
     #projects .ghsite3:hover {
       color: #fff;
       background-color: grey; }
@@ -318,7 +313,7 @@ span {
     color: black;
     margin-left: 1em;
     margin-bottom: 0.3em;
-    background-color: #79F7EF; }
+    background-color: lightcyan; }
     #projects .ghsite4:hover {
       color: #fff;
       background-color: grey; }
