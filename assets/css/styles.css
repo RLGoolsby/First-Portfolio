@@ -146,7 +146,7 @@ a {
 
 /**  LARGE DECORATIVE LEAVES **/
 .one {
-  margin-top: 4em; }
+  margin-top: 3em; }
 
 .two {
   margin-left: 7em; }
@@ -177,23 +177,22 @@ span {
   font-family: "Lato", Verdana, sans-serif;
   font-size: 2em;
   color: black;
-  margin-top: 4em;
+  margin-top: 3em;
   margin-right: 0.5em;
   line-height: 1.5;
   letter-spacing: 2px; }
 
 /** PHOTO/IMG **/
 .me {
-  display: block;
   background-size: cover;
   float: right;
-  margin-top: 1.5em;
+  margin-top: -1em;
   margin-bottom: 2em;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   border-radius: 50%;
-  width: 250px;
-  height: 250px; }
+  width: 292px;
+  height: 382px; }
 
 /************  END OF BIO.HTML VIEW *******************/
 /***********  PROJECTS.HTML VIEW  **********************/
