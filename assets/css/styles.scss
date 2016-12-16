@@ -214,11 +214,11 @@ span{
 /** BIO VERBAGE **/
   .paragraph{
     font-family: "Lato", Verdana, sans-serif;
-    font-size: 2em;
+    font-size: 2.4em;
     color: black;
-    margin-top: 3em;
+    margin-top: 2em;
     // margin-left: 0.9em;
-    margin-right: 0.5em;
+    // margin-right: 0.5em;
     line-height: 1.5;
     letter-spacing: 2px;
   }
@@ -226,7 +226,7 @@ span{
   .me{
     // display: block;
     background-size: cover;
-    float: right;
+    // float: right;
     margin-top: -1em;
     margin-bottom: 2em;
     background-position: 50% 50%;
@@ -295,7 +295,7 @@ span{
         cursor: pointer;
 
       }
-      .badges{
+      .respon{
         margin-top: 18px;
         margin-left: 2.5em;
         margin-right: 3em;
@@ -342,7 +342,7 @@ span{
         font-family: "Lato", Verdana, sans-serif;
         margin-right: 2em;
         text-align: right;
-        background-color: lightcyan;
+        // background-color: lightcyan;
         font-weight: bold;
         font-size: 23px;
         }
@@ -416,7 +416,7 @@ span{
           }
         }
 
-        .ghsite5{//My Badges
+        .ghsite5{//Reponsive Grid
           font-family: "Lato", Verdana, sans-serif;
           margin-top: 5px;
           border-radius: 5px;
@@ -432,7 +432,7 @@ span{
             background-color: grey;
           }
         }
-        
+
 
         // .ghsite5{//Responsive Grid
         //   font-family: "Lato", Verdana, sans-serif;
