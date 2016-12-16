@@ -324,13 +324,13 @@ span{
       //
       //   }
       // }
-        .chatti{
-          margin-top: 18px;
-          margin-left: 2.5em;
-          margin-right: 3em;
-          width: 85%;
-          border-radius: 6px;
-          cursor: pointer;
+        // .chatti{
+        //   margin-top: 18px;
+        //   margin-left: 2.5em;
+        //   margin-right: 3em;
+        //   width: 85%;
+        //   border-radius: 6px;
+        //   cursor: pointer;
         }
 /*-- END OF INDIVIDUAL PROJECTS --*/
 
@@ -351,7 +351,7 @@ span{
 
 
 /*-- VISIT GITHUB --*/
-        .ghsite1{
+        .ghsite1{//Ready Set Prep
           font-family: "Lato", Verdana, sans-serif;
           margin-top: 5px;
           border-radius: 5px;
@@ -367,39 +367,39 @@ span{
           }
         }
 
-        .ghsite2{  //memory game layout
-          font-family: "Lato", Verdana, sans-serif;
-          margin-top: 5px;
-          border-radius: 5px;
-          cursor:pointer;
-          font-size: 21px;
-          color: black;
-          background-color: lightcyan;
-          margin-left: 1em;
-          margin-bottom: 0.3em;
-            &:hover{
-              color: #fff;
-              background-color: grey;
-          }
-        }
+        // .ghsite2{  //What's up Chatt App
+        //   font-family: "Lato", Verdana, sans-serif;
+        //   margin-top: 5px;
+        //   border-radius: 5px;
+        //   cursor:pointer;
+        //   font-size: 21px;
+        //   color: black;
+        //   background-color: lightcyan;
+        //   margin-left: 1em;
+        //   margin-bottom: 0.3em;
+        //     &:hover{
+        //       color: #fff;
+        //       background-color: grey;
+        //   }
+        // }
 
-        .ghsite3{
-          font-family: "Lato", Verdana, sans-serif;
-          margin-top: 5px;
-          border-radius: 5px;
-          cursor:pointer;
-          font-size: 21px;
-          color: black;
-          margin-left: 1em;
-          margin-bottom: 0.3em;
-          background-color: lightcyan;
-          &:hover{
-            color: #fff;
-            background-color: grey;
-          }
-        }
+        // .ghsite3{//Memory Game
+        //   font-family: "Lato", Verdana, sans-serif;
+        //   margin-top: 5px;
+        //   border-radius: 5px;
+        //   cursor:pointer;
+        //   font-size: 21px;
+        //   color: black;
+        //   margin-left: 1em;
+        //   margin-bottom: 0.3em;
+        //   background-color: lightcyan;
+        //   &:hover{
+        //     color: #fff;
+        //     background-color: grey;
+        //   }
+        // }
 
-        .ghsite4{
+        .ghsite4{//Nested Accordion
           font-family: "Lato", Verdana, sans-serif;
           margin-top: 5px;
           border-radius: 5px;
@@ -416,7 +416,25 @@ span{
           }
         }
 
-        // .ghsite5{// Memory Game Layout to add later //
+        .ghsite5{//My Badges
+          font-family: "Lato", Verdana, sans-serif;
+          margin-top: 5px;
+          border-radius: 5px;
+          cursor:pointer;
+          font-size: 21px;
+          font-weight: normal;
+          color: black;
+          margin-left: 1em;
+          margin-bottom: 0.3em;
+          background-color: lightcyan;
+          &:hover{
+            color: #fff;
+            background-color: grey;
+          }
+        }
+        
+
+        // .ghsite5{//Responsive Grid
         //   font-family: "Lato", Verdana, sans-serif;
         //   margin-top: 5px;
         //   border-radius: 5px;
@@ -447,7 +465,7 @@ span{
 
         }
 
-        .vs2{
+        .vs3{
           font-family: "Lato", Verdana, sans-serif;
           font-size: 22px;
           font-weight: normal;
@@ -473,19 +491,6 @@ span{
         //   }
         // }
 
-        .vs4{
-          font-family: "Lato", Verdana, sans-serif;
-          font-size: 22px;
-          font-weight: normal;
-          cursor: pointer;
-          border-radius: 5px;
-          background-color: grey;
-          margin-right: 2em;
-          &:hover{
-            color: #fff;
-          }
-        }
-
         .vs5{
           font-family: "Lato", Verdana, sans-serif;
           font-size: 22px;
@@ -498,6 +503,19 @@ span{
             color: #fff;
           }
         }
+
+        // .vs5{
+        //   font-family: "Lato", Verdana, sans-serif;
+        //   font-size: 22px;
+        //   font-weight: normal;
+        //   cursor: pointer;
+        //   border-radius: 5px;
+        //   background-color: grey;
+        //   margin-right: 2em;
+        //   &:hover{
+        //     color: #fff;
+        //   }
+        // }
 /*-- END OF VISIT SITE --*/
 
 
@@ -516,7 +534,7 @@ span{
         }
       /*-- END OF PROJECT TOOLS --*/
 
-      }
+
 /***************** END OF PROJECTS VIEW **************/
 
 
