@@ -451,6 +451,7 @@ span{
 
 
 /*--  VISIT SITE --*/
+
         .vs1{
           font-family: "Lato", Verdana, sans-serif;
           font-size: 22px;
@@ -465,11 +466,24 @@ span{
 
         }
 
-        .vs4{
+        // .vs3{
+        //   font-family: "Lato", Verdana, sans-serif;
+        //   font-size: 22px;
+        //   font-weight: normal;
+        //   cursor: pointer;
+        //   border-radius: 5px;
+        //   background-color: grey;
+        //   margin-right: 2em;
+        //   &:hover{
+        //     color: #fffo
+        //   }
+        // }
+
+
+        .vs4{  //Nested accordion
           font-family: "Lato", Verdana, sans-serif;
           font-size: 22px;
           font-weight: normal;
-          cursor: pointer;
           border-radius: 5px;
           background-color: grey;
           margin-right: 2em;
@@ -477,19 +491,10 @@ span{
             color: #fff;
           }
         }
-
-
-        // .vs3{  //Memory Game Layout to add later //
-        //   font-family: "Lato", Verdana, sans-serif;
-        //   font-size: 22px;
-        //   font-weight: normal;
-        //   border-radius: 5px;
-        //   background-color: grey;
-        //   margin-right: 2em;
-        //   &:hover{
-        //     color: #fff;
-        //   }
-        // }
+        h5{
+          font-size: 16px;
+          letter-spacing: 0.3em;
+        }
 
         .vs5{
           font-family: "Lato", Verdana, sans-serif;
@@ -532,6 +537,7 @@ span{
           padding-left: 2em;
           margin-right: 0.5em;
         }
+
       /*-- END OF PROJECT TOOLS --*/
 
 
