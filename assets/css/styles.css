@@ -175,6 +175,7 @@ span {
 /** BIO VERBAGE **/
 .paragraph {
   flex-wrap: wrap;
+  margin-top: 2em;
   font-family: "Lato", Verdana, sans-serif;
   font-size: 2.4em;
   color: black;
@@ -184,7 +185,8 @@ span {
 /** PHOTO/IMG **/
 .me {
   background-size: cover;
-  text-align: center;
+  float: right;
+  margin-right: 1em;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   border-radius: 50%;
