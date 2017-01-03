@@ -214,9 +214,8 @@ span {
     padding-left: 0.3em;
     padding-bottom: 0.8em; }
   #projects li {
-    font-size: 42px;
+    font-size: 50px;
     font-family: "Open Sans Condensed", Verdana, sans-serif;
-    font-weight: bolder;
     border-bottom: 3px solid black;
     margin-bottom: 0.8em;
     margin-top: 6%;
@@ -230,6 +229,13 @@ span {
     border-radius: 6px;
     cursor: pointer; }
   #projects .accord {
+    margin-top: 18px;
+    margin-left: 2.5em;
+    margin-right: 3em;
+    width: 85%;
+    border-radius: 6px;
+    cursor: pointer; }
+  #projects .respon {
     margin-top: 18px;
     margin-left: 2.5em;
     margin-right: 3em;
@@ -288,6 +294,20 @@ span {
     margin-bottom: 0.3em;
     background-color: lightcyan; }
     #projects .ghsite5:hover {
+      color: #fff;
+      background-color: grey; }
+  #projects .ghsite6 {
+    font-family: "Lato", Verdana, sans-serif;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 21px;
+    font-weight: normal;
+    color: black;
+    margin-left: 1em;
+    margin-bottom: 0.3em;
+    background-color: lightcyan; }
+    #projects .ghsite6:hover {
       color: #fff;
       background-color: grey; }
   #projects .vs1 {

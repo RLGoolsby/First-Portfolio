@@ -259,9 +259,9 @@ span{
 
 /*-- PROJECT TITLES --*/
        li{
-        font-size: 42px;
+        font-size: 50px;
         font-family: $ffamily;
-        font-weight: bolder;
+        // font-weight: 600;
         border-bottom: 3px solid black;
         margin-bottom: 0.8em;
         margin-top: 6%;
@@ -294,14 +294,14 @@ span{
         cursor: pointer;
       }
 
-      // .respon{
-      //   margin-top: 18px;
-      //   margin-left: 2.5em;
-      //   margin-right: 3em;
-      //   width: 85%;
-      //   border-radius: 6px;
-      //   cursor: pointer;
-      // }
+      .respon{
+        margin-top: 18px;
+        margin-left: 2.5em;
+        margin-right: 3em;
+        width: 85%;
+        border-radius: 6px;
+        cursor: pointer;
+      }
 
       // .mem-game{
       //   margin-top: 13px;
@@ -434,18 +434,22 @@ span{
         }
 
 
-        // .ghsite6{//responsive-grid
-        //   font-family: "Lato", Verdana, sans-serif;
-        //   margin-top: 5px;
-        //   border-radius: 5px;
-        //   cursor:pointer;
-        //   font-size: 13px;
-        //   color: black;
-        //   margin-left: 1em;
-        //   &:hover{
-        //     background-color: grey;
-        //   }
-        // }
+        .ghsite6{//responsive-grid
+          font-family: "Lato", Verdana, sans-serif;
+          margin-top: 5px;
+          border-radius: 5px;
+          cursor:pointer;
+          font-size: 21px;
+          font-weight: normal;
+          color: black;
+          margin-left: 1em;
+          margin-bottom: 0.3em;
+          background-color: lightcyan;
+          &:hover{
+            color: #fff;
+            background-color: grey;
+          }
+        }
 /*-- END OF VISIT GITHUM --*/
 
 
