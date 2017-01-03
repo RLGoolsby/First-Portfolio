@@ -294,14 +294,14 @@ span{
         cursor: pointer;
       }
 
-      .respon{
-        margin-top: 18px;
-        margin-left: 2.5em;
-        margin-right: 3em;
-        width: 85%;
-        border-radius: 6px;
-        cursor: pointer;
-      }
+      // .respon{
+      //   margin-top: 18px;
+      //   margin-left: 2.5em;
+      //   margin-right: 3em;
+      //   width: 85%;
+      //   border-radius: 6px;
+      //   cursor: pointer;
+      // }
 
       // .mem-game{
       //   margin-top: 13px;
@@ -324,14 +324,14 @@ span{
       //   cursor: pointer;
       // }
 
-      // .badges{
-      //   margin-top: 18px;
-      //   margin-left: 2.5em;
-      //   margin-right: 3em;
-      //   width: 85%;
-      //   border-radius: 6px;
-      //   cursor: pointer;
-      // }
+      .badges{
+        margin-top: 18px;
+        margin-left: 2.5em;
+        margin-right: 3em;
+        width: 85%;
+        border-radius: 6px;
+        cursor: pointer;
+      }
 /*-- END OF INDIVIDUAL PROJECTS --*/
 
 
@@ -416,7 +416,7 @@ span{
           }
         }
 
-        .ghsite5{//Reponsive Grid
+        .ghsite5{//badges
           font-family: "Lato", Verdana, sans-serif;
           margin-top: 5px;
           border-radius: 5px;
@@ -434,7 +434,7 @@ span{
         }
 
 
-        // .ghsite5{//The Badges
+        // .ghsite6{//responsive-grid
         //   font-family: "Lato", Verdana, sans-serif;
         //   margin-top: 5px;
         //   border-radius: 5px;
@@ -523,30 +523,30 @@ span{
           }
         }
 
-        // .vs6{
-        //   font-family: "Lato", Verdana, sans-serif;
-        //   font-size: 22px;
-        //   font-weight: normal;
-        //   cursor: pointer;
-        //   border-radius: 5px;
-        //   background-color: grey;
-        //   margin-right: 2em;
-        //   &:hover{
-        //     color: #fff;
-        //   }
-        // }
+        .vs6{
+          font-family: "Lato", Verdana, sans-serif;
+          font-size: 22px;
+          font-weight: normal;
+          cursor: pointer;
+          border-radius: 5px;
+          background-color: grey;
+          margin-right: 2em;
+          &:hover{
+            color: #fff;
+          }
+        }
       }
 /*-- END OF VISIT SITE --*/
 
 
 /*-- PROJECT TOOLS --*/
         h2{
-          font-family: "Lato", Verdana, sans-serif;
-          font-weight: bold;
+          font-family: "Verdana", sans-serif;
+          font-weight: bolder;
           line-height: 2;
           letter-spacing: 1px;
           color: black;
-          font-size: 16px;
+          font-size: 20px;
           padding-top: 2px;
           padding-bottom: 0.5em;
           padding-left: 2em;
